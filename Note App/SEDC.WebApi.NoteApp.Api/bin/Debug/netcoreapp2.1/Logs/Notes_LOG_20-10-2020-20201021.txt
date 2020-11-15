@@ -1,0 +1,121 @@
+
+00:48:32 [Information] ( User profile is available. Using '"C:\Users\dushk\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+)
+00:48:33 [Information] ( Request starting HTTP/1.1 GET http://localhost:51099/api/values  
+)
+00:48:33 [Information] ( Request finished in 333.5215ms 404 
+)
+00:51:29 [Information] ( User profile is available. Using '"C:\Users\dushk\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+)
+00:51:30 [Information] ( Request starting HTTP/1.1 GET http://localhost:51099/api/external/performance/getnote  
+)
+00:51:30 [Information] ( Route matched with "{action = \"GetNotesPerformance\", controller = \"External\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.Int64] GetNotesPerformance()" on controller "SEDC.WebApi.NoteApp.Api.Controllers.ExternalController" ("SEDC.WebApi.NoteApp.Api").
+)
+00:51:30 [Information] ( Executing action method "SEDC.WebApi.NoteApp.Api.Controllers.ExternalController.GetNotesPerformance (SEDC.WebApi.NoteApp.Api)" - Validation state: Valid
+)
+00:51:30 [Information] ( Entity Framework Core "2.1.14-servicing-32113" initialized '"NotesDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+)
+00:51:34 [Information] ( Executed DbCommand ("32"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [n].[Id], [n].[Color], [n].[Tag], [n].[Text], [n].[UserId]
+FROM [Notes] AS [n]"
+)
+00:51:34 [Information] ( Executed action "SEDC.WebApi.NoteApp.Api.Controllers.ExternalController.GetNotesPerformance (SEDC.WebApi.NoteApp.Api)" in 4012.9563ms
+)
+00:51:34 [Error] ( An unhandled exception has occurred while executing the request.
+SEDC.WebApi.NoteApp.Services.Exceptions.NoteException: Not exists
+   at SEDC.WebApi.NoteApp.Services.NoteService.GetNote(Int32 id, Int32 userId) in C:\Users\dushk\OneDrive\Desktop\SEAVUS\8.WebAPI\SEDC.WebApi.NoteApp\SEDC.WebApi.NoteApp.Services\NoteService.cs:line 87
+   at SEDC.WebApi.NoteApp.Api.Controllers.ExternalController.GetNotesPerformance() in C:\Users\dushk\OneDrive\Desktop\SEAVUS\8.WebAPI\SEDC.WebApi.NoteApp\SEDC.WebApi.NoteApp.Api\Controllers\ExternalController.cs:line 28
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+)
+00:51:35 [Information] ( Request finished in 4945.7203ms 500 text/html; charset=utf-8
+)
+00:51:35 [Information] ( Request starting HTTP/1.1 GET http://localhost:51099/favicon.ico  
+)
+00:51:35 [Information] ( Request finished in 7.1581ms 404 
+)
+00:52:48 [Information] ( Request starting HTTP/1.1 GET http://localhost:51099/api/external/performance/getnote  
+)
+00:52:48 [Information] ( Route matched with "{action = \"GetNotesPerformance\", controller = \"External\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.Int64] GetNotesPerformance()" on controller "SEDC.WebApi.NoteApp.Api.Controllers.ExternalController" ("SEDC.WebApi.NoteApp.Api").
+)
+00:52:48 [Information] ( Executing action method "SEDC.WebApi.NoteApp.Api.Controllers.ExternalController.GetNotesPerformance (SEDC.WebApi.NoteApp.Api)" - Validation state: Valid
+)
+00:52:48 [Information] ( Entity Framework Core "2.1.14-servicing-32113" initialized '"NotesDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+)
+00:52:48 [Information] ( Executed DbCommand ("5"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [n].[Id], [n].[Color], [n].[Tag], [n].[Text], [n].[UserId]
+FROM [Notes] AS [n]"
+)
+00:52:48 [Information] ( Executed action "SEDC.WebApi.NoteApp.Api.Controllers.ExternalController.GetNotesPerformance (SEDC.WebApi.NoteApp.Api)" in 9.7071ms
+)
+00:52:48 [Error] ( An unhandled exception has occurred while executing the request.
+SEDC.WebApi.NoteApp.Services.Exceptions.NoteException: Not exists
+   at SEDC.WebApi.NoteApp.Services.NoteService.GetNote(Int32 id, Int32 userId) in C:\Users\dushk\OneDrive\Desktop\SEAVUS\8.WebAPI\SEDC.WebApi.NoteApp\SEDC.WebApi.NoteApp.Services\NoteService.cs:line 87
+   at SEDC.WebApi.NoteApp.Api.Controllers.ExternalController.GetNotesPerformance() in C:\Users\dushk\OneDrive\Desktop\SEAVUS\8.WebAPI\SEDC.WebApi.NoteApp\SEDC.WebApi.NoteApp.Api\Controllers\ExternalController.cs:line 28
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+)
+00:52:49 [Information] ( Request finished in 30.9372ms 500 text/html; charset=utf-8
+)
+01:05:02 [Information] ( User profile is available. Using '"C:\Users\dushk\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+)
+01:05:02 [Information] ( Request starting HTTP/1.1 GET http://localhost:51099/api/values  
+)
+01:05:03 [Information] ( Route matched with "{action = \"Get\", controller = \"Values\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[System.String]] Get()" on controller "App.Controllers.ValuesController" ("SEDC.WebApi.NoteApp.Api").
+)
+01:05:03 [Information] ( Executing action method "App.Controllers.ValuesController.Get (SEDC.WebApi.NoteApp.Api)" - Validation state: Valid
+)
+01:05:03 [Information] ( Executed action method "App.Controllers.ValuesController.Get (SEDC.WebApi.NoteApp.Api)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 0.215ms.
+)
+01:05:03 [Information] ( Executing ObjectResult, writing value of type '"System.String[]"'.
+)
+01:05:03 [Information] ( Executed action "App.Controllers.ValuesController.Get (SEDC.WebApi.NoteApp.Api)" in 123.0016ms
+)
+01:05:03 [Information] ( Request finished in 375.4902ms 200 application/json; charset=utf-8
+)
+01:10:42 [Information] ( User profile is available. Using '"C:\Users\dushk\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+)
+01:10:43 [Information] ( Request starting HTTP/1.1 GET http://localhost:51099/api/values  
+)
+01:10:43 [Information] ( Route matched with "{action = \"Get\", controller = \"Values\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[System.String]] Get()" on controller "App.Controllers.ValuesController" ("SEDC.WebApi.NoteApp.Api").
+)
+01:10:43 [Information] ( Executing action method "App.Controllers.ValuesController.Get (SEDC.WebApi.NoteApp.Api)" - Validation state: Valid
+)
+01:10:43 [Information] ( Executed action method "App.Controllers.ValuesController.Get (SEDC.WebApi.NoteApp.Api)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 0.2227ms.
+)
+01:10:43 [Information] ( Executing ObjectResult, writing value of type '"System.String[]"'.
+)
+01:10:43 [Information] ( Executed action "App.Controllers.ValuesController.Get (SEDC.WebApi.NoteApp.Api)" in 71.7338ms
+)
+01:10:43 [Information] ( Request finished in 276.7975ms 200 application/json; charset=utf-8
+)

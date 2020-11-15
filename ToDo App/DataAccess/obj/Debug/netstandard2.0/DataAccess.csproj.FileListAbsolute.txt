@@ -1,0 +1,12 @@
+C:\Users\dushk\OneDrive\Desktop\SEAVUS\8.WebAPI\Homework.WebAPI.ToDoApp\ToDoApp\DataAccess\bin\Debug\netstandard2.0\DataAccess.deps.json
+C:\Users\dushk\OneDrive\Desktop\SEAVUS\8.WebAPI\Homework.WebAPI.ToDoApp\ToDoApp\DataAccess\bin\Debug\netstandard2.0\DataAccess.dll
+C:\Users\dushk\OneDrive\Desktop\SEAVUS\8.WebAPI\Homework.WebAPI.ToDoApp\ToDoApp\DataAccess\bin\Debug\netstandard2.0\DataAccess.pdb
+C:\Users\dushk\OneDrive\Desktop\SEAVUS\8.WebAPI\Homework.WebAPI.ToDoApp\ToDoApp\DataAccess\bin\Debug\netstandard2.0\DomainModels.dll
+C:\Users\dushk\OneDrive\Desktop\SEAVUS\8.WebAPI\Homework.WebAPI.ToDoApp\ToDoApp\DataAccess\bin\Debug\netstandard2.0\DomainModels.pdb
+C:\Users\dushk\OneDrive\Desktop\SEAVUS\8.WebAPI\Homework.WebAPI.ToDoApp\ToDoApp\DataAccess\obj\Debug\netstandard2.0\DataAccess.csprojAssemblyReference.cache
+C:\Users\dushk\OneDrive\Desktop\SEAVUS\8.WebAPI\Homework.WebAPI.ToDoApp\ToDoApp\DataAccess\obj\Debug\netstandard2.0\DataAccess.AssemblyInfoInputs.cache
+C:\Users\dushk\OneDrive\Desktop\SEAVUS\8.WebAPI\Homework.WebAPI.ToDoApp\ToDoApp\DataAccess\obj\Debug\netstandard2.0\DataAccess.AssemblyInfo.cs
+C:\Users\dushk\OneDrive\Desktop\SEAVUS\8.WebAPI\Homework.WebAPI.ToDoApp\ToDoApp\DataAccess\obj\Debug\netstandard2.0\DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\dushk\OneDrive\Desktop\SEAVUS\8.WebAPI\Homework.WebAPI.ToDoApp\ToDoApp\DataAccess\obj\Debug\netstandard2.0\DataAccess.csproj.CopyComplete
+C:\Users\dushk\OneDrive\Desktop\SEAVUS\8.WebAPI\Homework.WebAPI.ToDoApp\ToDoApp\DataAccess\obj\Debug\netstandard2.0\DataAccess.dll
+C:\Users\dushk\OneDrive\Desktop\SEAVUS\8.WebAPI\Homework.WebAPI.ToDoApp\ToDoApp\DataAccess\obj\Debug\netstandard2.0\DataAccess.pdb

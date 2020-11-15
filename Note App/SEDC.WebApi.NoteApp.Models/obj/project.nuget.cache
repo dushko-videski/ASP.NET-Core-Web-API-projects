@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "ky4Rn9iPDVutJJBlAp7Tu8aQiy2BLMCovzmaEYDyA3sB7ltKS5W0N4yBqZIDQPlNwlW42r6yXntjv0QceHpN9Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\dushk\\OneDrive\\Desktop\\SEAVUS\\8.WebAPI\\SEDC.WebApi.NoteApp\\SEDC.WebApi.NoteApp.Models\\SEDC.WebApi.NoteApp.Models.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\dushk\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\dushk\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

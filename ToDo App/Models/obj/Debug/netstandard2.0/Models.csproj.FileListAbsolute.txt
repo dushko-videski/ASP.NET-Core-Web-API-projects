@@ -1,0 +1,9 @@
+C:\Users\dushk\OneDrive\Desktop\SEAVUS\8.WebAPI\Homework.WebAPI.ToDoApp\ToDoApp\Models\bin\Debug\netstandard2.0\Models.deps.json
+C:\Users\dushk\OneDrive\Desktop\SEAVUS\8.WebAPI\Homework.WebAPI.ToDoApp\ToDoApp\Models\bin\Debug\netstandard2.0\Models.dll
+C:\Users\dushk\OneDrive\Desktop\SEAVUS\8.WebAPI\Homework.WebAPI.ToDoApp\ToDoApp\Models\bin\Debug\netstandard2.0\Models.pdb
+C:\Users\dushk\OneDrive\Desktop\SEAVUS\8.WebAPI\Homework.WebAPI.ToDoApp\ToDoApp\Models\obj\Debug\netstandard2.0\Models.csprojAssemblyReference.cache
+C:\Users\dushk\OneDrive\Desktop\SEAVUS\8.WebAPI\Homework.WebAPI.ToDoApp\ToDoApp\Models\obj\Debug\netstandard2.0\Models.AssemblyInfoInputs.cache
+C:\Users\dushk\OneDrive\Desktop\SEAVUS\8.WebAPI\Homework.WebAPI.ToDoApp\ToDoApp\Models\obj\Debug\netstandard2.0\Models.AssemblyInfo.cs
+C:\Users\dushk\OneDrive\Desktop\SEAVUS\8.WebAPI\Homework.WebAPI.ToDoApp\ToDoApp\Models\obj\Debug\netstandard2.0\Models.csproj.CoreCompileInputs.cache
+C:\Users\dushk\OneDrive\Desktop\SEAVUS\8.WebAPI\Homework.WebAPI.ToDoApp\ToDoApp\Models\obj\Debug\netstandard2.0\Models.dll
+C:\Users\dushk\OneDrive\Desktop\SEAVUS\8.WebAPI\Homework.WebAPI.ToDoApp\ToDoApp\Models\obj\Debug\netstandard2.0\Models.pdb

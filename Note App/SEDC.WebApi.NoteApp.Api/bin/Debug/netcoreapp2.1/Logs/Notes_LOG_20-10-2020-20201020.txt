@@ -1,0 +1,61 @@
+
+22:51:36 [Information] ( User profile is available. Using '"C:\Users\dushk\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+)
+22:51:37 [Information] ( Request starting HTTP/1.1 GET http://localhost:51099/api/values  
+)
+22:51:37 [Information] ( Request finished in 284.2703ms 404 
+)
+22:54:58 [Information] ( User profile is available. Using '"C:\Users\dushk\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+)
+22:54:59 [Information] ( Request starting HTTP/1.1 GET http://localhost:51099/api/values  
+)
+22:54:59 [Information] ( Request finished in 294.6565ms 404 
+)
+22:55:31 [Information] ( User profile is available. Using '"C:\Users\dushk\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+)
+22:55:31 [Information] ( Request starting HTTP/1.1 GET http://localhost:51099/api/note  
+)
+22:55:31 [Information] ( Route matched with "{action = \"Get\", controller = \"Note\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[SEDC.WebApi.NoteApp.Models.NoteDto]] Get()" on controller "SEDC.WebApi.NoteApp.Api.Controllers.NoteController" ("SEDC.WebApi.NoteApp.Api").
+)
+22:55:31 [Information] ( Authorization failed.
+)
+22:55:31 [Information] ( Authorization failed for the request at filter '"Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter"'.
+)
+22:55:31 [Information] ( Executing ChallengeResult with authentication schemes ([]).
+)
+22:55:31 [Information] ( AuthenticationScheme: "Bearer" was challenged.
+)
+22:55:31 [Information] ( Executed action "SEDC.WebApi.NoteApp.Api.Controllers.NoteController.Get (SEDC.WebApi.NoteApp.Api)" in 27.8697ms
+)
+22:55:31 [Information] ( Request finished in 270.3777ms 401 
+)
+22:56:00 [Information] ( User profile is available. Using '"C:\Users\dushk\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+)
+22:56:00 [Information] ( Request starting HTTP/1.1 GET http://localhost:51099/api/note  
+)
+22:56:00 [Information] ( Route matched with "{action = \"Get\", controller = \"Note\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[SEDC.WebApi.NoteApp.Models.NoteDto]] Get()" on controller "SEDC.WebApi.NoteApp.Api.Controllers.NoteController" ("SEDC.WebApi.NoteApp.Api").
+)
+22:56:00 [Information] ( Authorization failed.
+)
+22:56:00 [Information] ( Authorization failed for the request at filter '"Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter"'.
+)
+22:56:00 [Information] ( Executing ChallengeResult with authentication schemes ([]).
+)
+22:56:00 [Information] ( AuthenticationScheme: "Bearer" was challenged.
+)
+22:56:00 [Information] ( Executed action "SEDC.WebApi.NoteApp.Api.Controllers.NoteController.Get (SEDC.WebApi.NoteApp.Api)" in 26.7967ms
+)
+22:56:00 [Information] ( Request finished in 230.2517ms 401 
+)
+22:57:05 [Information] ( User profile is available. Using '"C:\Users\dushk\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+)
+22:57:05 [Information] ( Request starting HTTP/1.1 GET http://localhost:51099/api/user  
+)
+22:57:05 [Information] ( Request finished in 183.2565ms 404 
+)
+23:03:06 [Information] ( User profile is available. Using '"C:\Users\dushk\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+)
+23:03:07 [Information] ( Request starting HTTP/1.1 GET http://localhost:51099/api/values  
+)
+23:03:07 [Information] ( Request finished in 174.0967ms 404 
+)

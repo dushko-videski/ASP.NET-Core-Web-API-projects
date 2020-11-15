@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>App</name>
+    </assembly>
+    <members>
+        <member name="M:App.Controllers.TodoController.AddSubTask(Services.Interfaces.SubTaskDto)">
+            <summary>
+            adds sub task
+            </summary>
+            <param name="subTaskDto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:App.Controllers.TodoController.GetTask(System.Int32,System.Int32)">
+            <summary>
+            gets one task
+            </summary>
+            <param name="userId"></param>
+            <param name="taskId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:App.Controllers.TodoController.GetSubTask(System.Int32,System.Int32)">
+            <summary>
+            gets one sub task
+            </summary>
+            <param name="taskId"></param>
+            <param name="subTaskId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:App.Controllers.TodoController.GetAllTasks(System.Int32)">
+            <summary>
+            gets all the tasks
+            </summary>
+            <param name="userId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:App.Controllers.TodoController.GetAllSubTasks(System.Int32)">
+            <summary>
+            gets all the sub tasks
+            </summary>
+            <param name="taskId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:App.Controllers.TodoController.UpdateTask(Services.Interfaces.ToDoDto)">
+            <summary>
+            updates only the task
+            </summary>
+            <param name="toDoDto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:App.Controllers.TodoController.UpdateSubTask(Services.Interfaces.SubTaskDto)">
+            <summary>
+            updates only the sub task
+            </summary>
+            <param name="subTaskDto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:App.Controllers.UserController.Login(Models.LoginModel)">
+            <summary>
+            logs in existing user
+            </summary>
+            <param name="loginModel"></param>
+            <returns></returns>
+        </member>
+        <member name="M:App.Controllers.UserController.Register(Services.Interfaces.RegisterModel)">
+            <summary>
+            registeres new user
+            </summary>
+            <param name="registerModel"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
