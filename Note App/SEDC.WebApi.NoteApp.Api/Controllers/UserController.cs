@@ -26,8 +26,7 @@ namespace SEDC.WebApi.NoteApp.Api.Controllers
 
         [AllowAnonymous]
         [HttpPost("authenticate")]
-        public ActionResult<UserModel> Authenticate(
-            [FromBody]LoginModel request)
+        public ActionResult<UserModel> Authenticate([FromBody] LoginModel request)
         {
             try
             {

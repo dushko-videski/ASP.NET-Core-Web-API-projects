@@ -1,0 +1,703 @@
+
+21:41:17 [Information] ( User profile is available. Using '"C:\Users\dushk\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+)
+21:41:19 [Information] ( Creating key {ea8808dc-829e-4355-a4bc-c30b98f2a0f7} with creation date 2020-11-16 20:41:19Z, activation date 2020-11-16 20:41:18Z, and expiration date 2021-02-14 20:41:18Z.
+)
+21:41:19 [Information] ( Writing data to file '"C:\Users\dushk\AppData\Local\ASP.NET\DataProtection-Keys\key-ea8808dc-829e-4355-a4bc-c30b98f2a0f7.xml"'.
+)
+21:41:21 [Information] ( Request starting HTTP/1.1 GET http://localhost:51099/api/values  
+)
+21:41:22 [Information] ( Route matched with "{action = \"Get\", controller = \"Values\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[System.String]] Get()" on controller "App.Controllers.ValuesController" ("SEDC.WebApi.NoteApp.Api").
+)
+21:41:22 [Information] ( Executing action method "App.Controllers.ValuesController.Get (SEDC.WebApi.NoteApp.Api)" - Validation state: Valid
+)
+21:41:22 [Information] ( Executed action method "App.Controllers.ValuesController.Get (SEDC.WebApi.NoteApp.Api)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 0.2022ms.
+)
+21:41:22 [Information] ( Executing ObjectResult, writing value of type '"System.String[]"'.
+)
+21:41:22 [Information] ( Executed action "App.Controllers.ValuesController.Get (SEDC.WebApi.NoteApp.Api)" in 298.1976ms
+)
+21:41:22 [Information] ( Request finished in 1209.4275ms 200 application/json; charset=utf-8
+)
+21:41:23 [Information] ( Request starting HTTP/1.1 GET http://localhost:51099/favicon.ico  
+)
+21:41:23 [Information] ( Request finished in 3.0618ms 404 
+)
+21:46:20 [Information] ( User profile is available. Using '"C:\Users\dushk\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+)
+21:46:21 [Information] ( Request starting HTTP/1.1 GET http://localhost:51099/api/values  
+)
+21:46:21 [Information] ( Route matched with "{action = \"Get\", controller = \"Values\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[System.String]] Get()" on controller "App.Controllers.ValuesController" ("SEDC.WebApi.NoteApp.Api").
+)
+21:46:21 [Information] ( Executing action method "App.Controllers.ValuesController.Get (SEDC.WebApi.NoteApp.Api)" - Validation state: Valid
+)
+21:46:21 [Information] ( Executed action method "App.Controllers.ValuesController.Get (SEDC.WebApi.NoteApp.Api)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 0.2287ms.
+)
+21:46:21 [Information] ( Executing ObjectResult, writing value of type '"System.String[]"'.
+)
+21:46:21 [Information] ( Executed action "App.Controllers.ValuesController.Get (SEDC.WebApi.NoteApp.Api)" in 79.4936ms
+)
+21:46:21 [Information] ( Request finished in 365.5026ms 200 application/json; charset=utf-8
+)
+21:47:45 [Information] ( User profile is available. Using '"C:\Users\dushk\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+)
+21:47:46 [Information] ( Request starting HTTP/1.1 GET http://localhost:51099/swagger  
+)
+21:47:46 [Information] ( Request finished in 145.4909ms 302 
+)
+21:47:46 [Information] ( Request starting HTTP/1.1 GET http://localhost:51099/swagger/index.html  
+)
+21:47:47 [Information] ( Request finished in 693.1958ms 200 text/html; charset=utf-8
+)
+21:47:47 [Information] ( Request starting HTTP/1.1 GET http://localhost:51099/swagger/swagger-ui.css  
+)
+21:47:47 [Information] ( Request starting HTTP/1.1 GET http://localhost:51099/swagger/swagger-ui-standalone-preset.js  
+)
+21:47:47 [Information] ( Request starting HTTP/1.1 GET http://localhost:51099/swagger/swagger-ui-bundle.js  
+)
+21:47:47 [Information] ( Sending file. Request path: '"/swagger-ui-standalone-preset.js"'. Physical path: '"N/A"'
+)
+21:47:47 [Information] ( Sending file. Request path: '"/swagger-ui.css"'. Physical path: '"N/A"'
+)
+21:47:47 [Information] ( Sending file. Request path: '"/swagger-ui-bundle.js"'. Physical path: '"N/A"'
+)
+21:47:47 [Information] ( Request finished in 261.6725ms 200 application/javascript
+)
+21:47:47 [Information] ( Request finished in 261.1874ms 200 application/javascript
+)
+21:47:47 [Information] ( Request finished in 281.2878ms 200 text/css
+)
+21:47:48 [Information] ( Request starting HTTP/1.1 GET http://localhost:51099/swagger/v1/swagger.json  
+)
+21:47:49 [Information] ( Request starting HTTP/1.1 GET http://localhost:51099/swagger/favicon-32x32.png  
+)
+21:47:49 [Information] ( Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"'
+)
+21:47:49 [Information] ( Request finished in 0.5178ms 200 image/png
+)
+21:47:52 [Information] ( Request finished in 3093.4557ms 200 application/json; charset=utf-8
+)
+21:49:25 [Information] ( User profile is available. Using '"C:\Users\dushk\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+)
+21:49:26 [Information] ( Request starting HTTP/1.1 GET http://localhost:51099/api/note application/json 279
+)
+21:49:26 [Information] ( Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo: '[PII is hidden]', Current time: '[PII is hidden]'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters) in C:\agent2\_work\15\s\src\Microsoft.IdentityModel.Tokens\Validators.cs:line 269
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters) in C:\agent2\_work\15\s\src\System.IdentityModel.Tokens.Jwt\JwtSecurityTokenHandler.cs:line 1259
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters) in C:\agent2\_work\15\s\src\System.IdentityModel.Tokens.Jwt\JwtSecurityTokenHandler.cs:line 785
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken) in C:\agent2\_work\15\s\src\System.IdentityModel.Tokens.Jwt\JwtSecurityTokenHandler.cs:line 769
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+)
+21:49:27 [Information] ( "Bearer" was not authenticated. Failure message: "IDX10223: Lifetime validation failed. The token is expired. ValidTo: '[PII is hidden]', Current time: '[PII is hidden]'."
+)
+21:49:27 [Information] ( Route matched with "{action = \"Get\", controller = \"Note\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[SEDC.WebApi.NoteApp.Models.NoteDto]] Get()" on controller "SEDC.WebApi.NoteApp.Api.Controllers.NoteController" ("SEDC.WebApi.NoteApp.Api").
+)
+21:49:27 [Information] ( Authorization failed.
+)
+21:49:27 [Information] ( Authorization failed for the request at filter '"Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter"'.
+)
+21:49:27 [Information] ( Executing ChallengeResult with authentication schemes ([]).
+)
+21:49:27 [Information] ( AuthenticationScheme: "Bearer" was challenged.
+)
+21:49:27 [Information] ( Executed action "SEDC.WebApi.NoteApp.Api.Controllers.NoteController.Get (SEDC.WebApi.NoteApp.Api)" in 95.0201ms
+)
+21:49:27 [Information] ( Request finished in 1275.6119ms 401 
+)
+21:49:27 [Information] ( Connection id ""0HM4AE4DG0706"", Request id ""0HM4AE4DG0706:00000001"": the application completed without reading the entire request body.
+)
+21:50:57 [Information] ( Request starting HTTP/1.1 GET http://localhost:51099/api/note application/json 279
+)
+21:50:57 [Information] ( Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo: '[PII is hidden]', Current time: '[PII is hidden]'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters) in C:\agent2\_work\15\s\src\Microsoft.IdentityModel.Tokens\Validators.cs:line 269
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters) in C:\agent2\_work\15\s\src\System.IdentityModel.Tokens.Jwt\JwtSecurityTokenHandler.cs:line 1259
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters) in C:\agent2\_work\15\s\src\System.IdentityModel.Tokens.Jwt\JwtSecurityTokenHandler.cs:line 785
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken) in C:\agent2\_work\15\s\src\System.IdentityModel.Tokens.Jwt\JwtSecurityTokenHandler.cs:line 769
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+)
+21:50:57 [Information] ( "Bearer" was not authenticated. Failure message: "IDX10223: Lifetime validation failed. The token is expired. ValidTo: '[PII is hidden]', Current time: '[PII is hidden]'."
+)
+21:50:57 [Information] ( Route matched with "{action = \"Get\", controller = \"Note\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[SEDC.WebApi.NoteApp.Models.NoteDto]] Get()" on controller "SEDC.WebApi.NoteApp.Api.Controllers.NoteController" ("SEDC.WebApi.NoteApp.Api").
+)
+21:50:57 [Information] ( Authorization failed.
+)
+21:50:57 [Information] ( Authorization failed for the request at filter '"Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter"'.
+)
+21:50:57 [Information] ( Executing ChallengeResult with authentication schemes ([]).
+)
+21:50:57 [Information] ( AuthenticationScheme: "Bearer" was challenged.
+)
+21:50:57 [Information] ( Executed action "SEDC.WebApi.NoteApp.Api.Controllers.NoteController.Get (SEDC.WebApi.NoteApp.Api)" in 0.6703ms
+)
+21:50:57 [Information] ( Request finished in 3.2633ms 401 
+)
+21:50:57 [Information] ( Connection id ""0HM4AE4DG0707"", Request id ""0HM4AE4DG0707:00000001"": the application completed without reading the entire request body.
+)
+21:55:22 [Information] ( Request starting HTTP/1.1 GET http://localhost:51099/api/note/1 application/json 279
+)
+21:55:22 [Information] ( Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo: '[PII is hidden]', Current time: '[PII is hidden]'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters) in C:\agent2\_work\15\s\src\Microsoft.IdentityModel.Tokens\Validators.cs:line 269
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters) in C:\agent2\_work\15\s\src\System.IdentityModel.Tokens.Jwt\JwtSecurityTokenHandler.cs:line 1259
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters) in C:\agent2\_work\15\s\src\System.IdentityModel.Tokens.Jwt\JwtSecurityTokenHandler.cs:line 785
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken) in C:\agent2\_work\15\s\src\System.IdentityModel.Tokens.Jwt\JwtSecurityTokenHandler.cs:line 769
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+)
+21:55:22 [Information] ( "Bearer" was not authenticated. Failure message: "IDX10223: Lifetime validation failed. The token is expired. ValidTo: '[PII is hidden]', Current time: '[PII is hidden]'."
+)
+21:55:23 [Information] ( Route matched with "{action = \"Get\", controller = \"Note\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[SEDC.WebApi.NoteApp.Models.NoteDto] Get(Int32)" on controller "SEDC.WebApi.NoteApp.Api.Controllers.NoteController" ("SEDC.WebApi.NoteApp.Api").
+)
+21:55:23 [Information] ( Authorization failed.
+)
+21:55:23 [Information] ( Authorization failed for the request at filter '"Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter"'.
+)
+21:55:23 [Information] ( Executing ChallengeResult with authentication schemes ([]).
+)
+21:55:23 [Information] ( AuthenticationScheme: "Bearer" was challenged.
+)
+21:55:23 [Information] ( Executed action "SEDC.WebApi.NoteApp.Api.Controllers.NoteController.Get (SEDC.WebApi.NoteApp.Api)" in 0.2886ms
+)
+21:55:23 [Information] ( Request finished in 123.2989ms 401 
+)
+21:55:23 [Information] ( Connection id ""0HM4AE4DG0708"", Request id ""0HM4AE4DG0708:00000001"": the application completed without reading the entire request body.
+)
+21:59:16 [Information] ( Request starting HTTP/1.1 POST http://localhost:51099/api/user/authenticate application/json 55
+)
+21:59:16 [Information] ( Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo: '[PII is hidden]', Current time: '[PII is hidden]'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters) in C:\agent2\_work\15\s\src\Microsoft.IdentityModel.Tokens\Validators.cs:line 269
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters) in C:\agent2\_work\15\s\src\System.IdentityModel.Tokens.Jwt\JwtSecurityTokenHandler.cs:line 1259
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters) in C:\agent2\_work\15\s\src\System.IdentityModel.Tokens.Jwt\JwtSecurityTokenHandler.cs:line 785
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken) in C:\agent2\_work\15\s\src\System.IdentityModel.Tokens.Jwt\JwtSecurityTokenHandler.cs:line 769
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+)
+21:59:16 [Information] ( "Bearer" was not authenticated. Failure message: "IDX10223: Lifetime validation failed. The token is expired. ValidTo: '[PII is hidden]', Current time: '[PII is hidden]'."
+)
+21:59:16 [Information] ( Route matched with "{action = \"Authenticate\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[SEDC.WebApi.NoteApp.Models.UserModel] Authenticate(SEDC.WebApi.NoteApp.Models.LoginModel)" on controller "SEDC.WebApi.NoteApp.Api.Controllers.UserController" ("SEDC.WebApi.NoteApp.Api").
+)
+21:59:17 [Information] ( Executing action method "SEDC.WebApi.NoteApp.Api.Controllers.UserController.Authenticate (SEDC.WebApi.NoteApp.Api)" - Validation state: Valid
+)
+21:59:18 [Information] ( Entity Framework Core "2.1.14-servicing-32113" initialized '"NotesDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+)
+21:59:19 [Information] ( Executed DbCommand ("7"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [u].[Id], [u].[FirstName], [u].[LastName], [u].[Password], [u].[Username]
+FROM [Users] AS [u]"
+)
+21:59:19 [Error] ( USER: .: User with that username does not exists
+)
+21:59:19 [Information] ( Executed action method "SEDC.WebApi.NoteApp.Api.Controllers.UserController.Authenticate (SEDC.WebApi.NoteApp.Api)", returned result "Microsoft.AspNetCore.Mvc.BadRequestObjectResult" in 2131.6188ms.
+)
+21:59:19 [Information] ( Executing ObjectResult, writing value of type '"System.String"'.
+)
+21:59:19 [Information] ( Executed action "SEDC.WebApi.NoteApp.Api.Controllers.UserController.Authenticate (SEDC.WebApi.NoteApp.Api)" in 2961.7322ms
+)
+21:59:19 [Information] ( Request finished in 2971.7382ms 400 text/plain; charset=utf-8
+)
+22:02:07 [Information] ( Request starting HTTP/1.1 POST http://localhost:51099/api/user/register application/json 141
+)
+22:02:07 [Information] ( Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo: '[PII is hidden]', Current time: '[PII is hidden]'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters) in C:\agent2\_work\15\s\src\Microsoft.IdentityModel.Tokens\Validators.cs:line 269
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters) in C:\agent2\_work\15\s\src\System.IdentityModel.Tokens.Jwt\JwtSecurityTokenHandler.cs:line 1259
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters) in C:\agent2\_work\15\s\src\System.IdentityModel.Tokens.Jwt\JwtSecurityTokenHandler.cs:line 785
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken) in C:\agent2\_work\15\s\src\System.IdentityModel.Tokens.Jwt\JwtSecurityTokenHandler.cs:line 769
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+)
+22:02:07 [Information] ( "Bearer" was not authenticated. Failure message: "IDX10223: Lifetime validation failed. The token is expired. ValidTo: '[PII is hidden]', Current time: '[PII is hidden]'."
+)
+22:02:07 [Information] ( Route matched with "{action = \"Register\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Register(SEDC.WebApi.NoteApp.Models.RegisterModel)" on controller "SEDC.WebApi.NoteApp.Api.Controllers.UserController" ("SEDC.WebApi.NoteApp.Api").
+)
+22:02:07 [Information] ( Executing action method "SEDC.WebApi.NoteApp.Api.Controllers.UserController.Register (SEDC.WebApi.NoteApp.Api)" - Validation state: Valid
+)
+22:02:07 [Information] ( Entity Framework Core "2.1.14-servicing-32113" initialized '"NotesDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+)
+22:02:08 [Information] ( Executed DbCommand ("17"ms) [Parameters=["@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (Size = 100), @p3='?' (Size = 50)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+INSERT INTO [Users] ([FirstName], [LastName], [Password], [Username])
+VALUES (@p0, @p1, @p2, @p3);
+SELECT [Id]
+FROM [Users]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();"
+)
+22:02:08 [Information] ( USER: "ljupka.p" has registered
+)
+22:02:08 [Information] ( Executed action method "SEDC.WebApi.NoteApp.Api.Controllers.UserController.Register (SEDC.WebApi.NoteApp.Api)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 494.4149ms.
+)
+22:02:08 [Information] ( Executing ObjectResult, writing value of type '"System.String"'.
+)
+22:02:08 [Information] ( Executed action "SEDC.WebApi.NoteApp.Api.Controllers.UserController.Register (SEDC.WebApi.NoteApp.Api)" in 505.841ms
+)
+22:02:08 [Information] ( Request finished in 509.5504ms 200 text/plain; charset=utf-8
+)
+22:02:51 [Information] ( Request starting HTTP/1.1 POST http://localhost:51099/api/user/authenticate application/json 56
+)
+22:02:51 [Information] ( Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo: '[PII is hidden]', Current time: '[PII is hidden]'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters) in C:\agent2\_work\15\s\src\Microsoft.IdentityModel.Tokens\Validators.cs:line 269
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters) in C:\agent2\_work\15\s\src\System.IdentityModel.Tokens.Jwt\JwtSecurityTokenHandler.cs:line 1259
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters) in C:\agent2\_work\15\s\src\System.IdentityModel.Tokens.Jwt\JwtSecurityTokenHandler.cs:line 785
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken) in C:\agent2\_work\15\s\src\System.IdentityModel.Tokens.Jwt\JwtSecurityTokenHandler.cs:line 769
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+)
+22:02:51 [Information] ( "Bearer" was not authenticated. Failure message: "IDX10223: Lifetime validation failed. The token is expired. ValidTo: '[PII is hidden]', Current time: '[PII is hidden]'."
+)
+22:02:51 [Information] ( Route matched with "{action = \"Authenticate\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[SEDC.WebApi.NoteApp.Models.UserModel] Authenticate(SEDC.WebApi.NoteApp.Models.LoginModel)" on controller "SEDC.WebApi.NoteApp.Api.Controllers.UserController" ("SEDC.WebApi.NoteApp.Api").
+)
+22:02:51 [Information] ( Executing action method "SEDC.WebApi.NoteApp.Api.Controllers.UserController.Authenticate (SEDC.WebApi.NoteApp.Api)" - Validation state: Valid
+)
+22:02:51 [Information] ( Entity Framework Core "2.1.14-servicing-32113" initialized '"NotesDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+)
+22:02:51 [Information] ( Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [u].[Id], [u].[FirstName], [u].[LastName], [u].[Password], [u].[Username]
+FROM [Users] AS [u]"
+)
+22:02:51 [Information] ( USER: ljupka.p has logged in
+)
+22:02:51 [Information] ( Executed action method "SEDC.WebApi.NoteApp.Api.Controllers.UserController.Authenticate (SEDC.WebApi.NoteApp.Api)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 68.0875ms.
+)
+22:02:51 [Information] ( Executing ObjectResult, writing value of type '"SEDC.WebApi.NoteApp.Models.UserModel"'.
+)
+22:02:51 [Information] ( Executed action "SEDC.WebApi.NoteApp.Api.Controllers.UserController.Authenticate (SEDC.WebApi.NoteApp.Api)" in 83.3461ms
+)
+22:02:51 [Information] ( Request finished in 85.6008ms 200 application/json; charset=utf-8
+)
+22:04:38 [Information] ( Request starting HTTP/1.1 GET http://localhost:51099/api/note application/json 56
+)
+22:04:38 [Information] ( Successfully validated the token.
+)
+22:04:38 [Information] ( Route matched with "{action = \"Get\", controller = \"Note\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[SEDC.WebApi.NoteApp.Models.NoteDto]] Get()" on controller "SEDC.WebApi.NoteApp.Api.Controllers.NoteController" ("SEDC.WebApi.NoteApp.Api").
+)
+22:04:38 [Information] ( Authorization was successful.
+)
+22:04:38 [Information] ( Executing action method "SEDC.WebApi.NoteApp.Api.Controllers.NoteController.Get (SEDC.WebApi.NoteApp.Api)" - Validation state: Valid
+)
+22:04:38 [Information] ( Executed action method "SEDC.WebApi.NoteApp.Api.Controllers.NoteController.Get (SEDC.WebApi.NoteApp.Api)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 3.2668ms.
+)
+22:04:38 [Information] ( Executing ObjectResult, writing value of type '"System.Linq.Enumerable+WhereSelectEnumerableIterator`2[[SEDC.WebApi.NoteApp.DataModel.Note, SEDC.WebApi.NoteApp.DataModel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[SEDC.WebApi.NoteApp.Models.NoteDto, SEDC.WebApi.NoteApp.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+)
+22:04:38 [Information] ( Entity Framework Core "2.1.14-servicing-32113" initialized '"NotesDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+)
+22:04:38 [Information] ( Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [n].[Id], [n].[Color], [n].[Tag], [n].[Text], [n].[UserId]
+FROM [Notes] AS [n]"
+)
+22:04:38 [Information] ( Executed action "SEDC.WebApi.NoteApp.Api.Controllers.NoteController.Get (SEDC.WebApi.NoteApp.Api)" in 20.5541ms
+)
+22:04:38 [Information] ( Request finished in 160.9518ms 200 application/json; charset=utf-8
+)
+22:04:38 [Information] ( Connection id ""0HM4AE4DG070B"", Request id ""0HM4AE4DG070B:00000001"": the application completed without reading the entire request body.
+)
+22:11:26 [Information] ( User profile is available. Using '"C:\Users\dushk\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+)
+22:11:27 [Information] ( Request starting HTTP/1.1 GET http://localhost:51099/api/note application/json 56
+)
+22:11:27 [Information] ( Successfully validated the token.
+)
+22:11:28 [Information] ( Route matched with "{action = \"Get\", controller = \"Note\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[SEDC.WebApi.NoteApp.Models.NoteDto]] Get()" on controller "SEDC.WebApi.NoteApp.Api.Controllers.NoteController" ("SEDC.WebApi.NoteApp.Api").
+)
+22:11:28 [Information] ( Authorization was successful.
+)
+22:11:28 [Information] ( Executing action method "SEDC.WebApi.NoteApp.Api.Controllers.NoteController.Get (SEDC.WebApi.NoteApp.Api)" - Validation state: Valid
+)
+22:11:28 [Information] ( Executed action method "SEDC.WebApi.NoteApp.Api.Controllers.NoteController.Get (SEDC.WebApi.NoteApp.Api)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 4.697ms.
+)
+22:11:28 [Information] ( Executing ObjectResult, writing value of type '"System.Linq.Enumerable+WhereSelectEnumerableIterator`2[[SEDC.WebApi.NoteApp.DataModel.Note, SEDC.WebApi.NoteApp.DataModel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[SEDC.WebApi.NoteApp.Models.NoteDto, SEDC.WebApi.NoteApp.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+)
+22:11:28 [Information] ( Entity Framework Core "2.1.14-servicing-32113" initialized '"NotesDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+)
+22:11:29 [Information] ( Executed DbCommand ("6"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [n].[Id], [n].[Color], [n].[Tag], [n].[Text], [n].[UserId]
+FROM [Note] AS [n]"
+)
+22:11:29 [Information] ( Executed action "SEDC.WebApi.NoteApp.Api.Controllers.NoteController.Get (SEDC.WebApi.NoteApp.Api)" in 946.0172ms
+)
+22:11:29 [Information] ( Request finished in 1560.4625ms 200 application/json; charset=utf-8
+)
+22:11:29 [Information] ( Connection id ""0HM4AEGN8M9PQ"", Request id ""0HM4AEGN8M9PQ:00000001"": the application completed without reading the entire request body.
+)
+22:18:54 [Information] ( User profile is available. Using '"C:\Users\dushk\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+)
+22:18:54 [Information] ( Request starting HTTP/1.1 GET http://localhost:51099/api/note application/json 56
+)
+22:18:55 [Information] ( Successfully validated the token.
+)
+22:18:55 [Information] ( Route matched with "{action = \"Get\", controller = \"Note\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[SEDC.WebApi.NoteApp.Models.NoteDto]] Get()" on controller "SEDC.WebApi.NoteApp.Api.Controllers.NoteController" ("SEDC.WebApi.NoteApp.Api").
+)
+22:18:55 [Information] ( Authorization was successful.
+)
+22:18:55 [Information] ( Executing action method "SEDC.WebApi.NoteApp.Api.Controllers.NoteController.Get (SEDC.WebApi.NoteApp.Api)" - Validation state: Valid
+)
+22:18:55 [Information] ( Executed action method "SEDC.WebApi.NoteApp.Api.Controllers.NoteController.Get (SEDC.WebApi.NoteApp.Api)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 2.9859ms.
+)
+22:18:55 [Information] ( Executing ObjectResult, writing value of type '"System.Linq.Enumerable+WhereSelectEnumerableIterator`2[[SEDC.WebApi.NoteApp.DataModel.Note, SEDC.WebApi.NoteApp.DataModel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[SEDC.WebApi.NoteApp.Models.NoteDto, SEDC.WebApi.NoteApp.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+)
+22:18:56 [Information] ( Entity Framework Core "2.1.14-servicing-32113" initialized '"NotesDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+)
+22:18:56 [Information] ( Executed DbCommand ("8"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [n].[Id], [n].[Color], [n].[Tag], [n].[Text], [n].[UserId]
+FROM [Notes] AS [n]"
+)
+22:18:56 [Information] ( Executed action "SEDC.WebApi.NoteApp.Api.Controllers.NoteController.Get (SEDC.WebApi.NoteApp.Api)" in 898.6811ms
+)
+22:18:56 [Information] ( Request finished in 1453.2715ms 200 application/json; charset=utf-8
+)
+22:18:56 [Information] ( Connection id ""0HM4AEKSIVSS7"", Request id ""0HM4AEKSIVSS7:00000001"": the application completed without reading the entire request body.
+)
+22:19:23 [Information] ( User profile is available. Using '"C:\Users\dushk\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+)
+22:19:24 [Information] ( Request starting HTTP/1.1 GET http://localhost:51099/swagger  
+)
+22:19:24 [Information] ( Request finished in 114.976ms 302 
+)
+22:19:24 [Information] ( Request starting HTTP/1.1 GET http://localhost:51099/swagger/index.html  
+)
+22:19:24 [Information] ( Request finished in 103.3765ms 200 text/html; charset=utf-8
+)
+22:19:25 [Information] ( Request starting HTTP/1.1 GET http://localhost:51099/swagger/v1/swagger.json  
+)
+22:19:27 [Information] ( Request finished in 1819.5553ms 200 application/json; charset=utf-8
+)
+22:20:16 [Information] ( Request starting HTTP/1.1 GET http://localhost:51099/api/note application/json 56
+)
+22:20:16 [Information] ( Successfully validated the token.
+)
+22:20:16 [Information] ( Route matched with "{action = \"Get\", controller = \"Note\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[SEDC.WebApi.NoteApp.Models.NoteDto]] Get()" on controller "SEDC.WebApi.NoteApp.Api.Controllers.NoteController" ("SEDC.WebApi.NoteApp.Api").
+)
+22:20:16 [Information] ( Authorization was successful.
+)
+22:20:16 [Information] ( Executing action method "SEDC.WebApi.NoteApp.Api.Controllers.NoteController.Get (SEDC.WebApi.NoteApp.Api)" - Validation state: Valid
+)
+22:20:16 [Information] ( Executed action method "SEDC.WebApi.NoteApp.Api.Controllers.NoteController.Get (SEDC.WebApi.NoteApp.Api)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 2.841ms.
+)
+22:20:16 [Information] ( Executing ObjectResult, writing value of type '"System.Linq.Enumerable+WhereSelectEnumerableIterator`2[[SEDC.WebApi.NoteApp.DataModel.Note, SEDC.WebApi.NoteApp.DataModel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[SEDC.WebApi.NoteApp.Models.NoteDto, SEDC.WebApi.NoteApp.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+)
+22:20:17 [Information] ( Entity Framework Core "2.1.14-servicing-32113" initialized '"NotesDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+)
+22:20:17 [Information] ( Executed DbCommand ("7"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [n].[Id], [n].[Color], [n].[Tag], [n].[Text], [n].[UserId]
+FROM [Notes] AS [n]"
+)
+22:20:17 [Information] ( Executed action "SEDC.WebApi.NoteApp.Api.Controllers.NoteController.Get (SEDC.WebApi.NoteApp.Api)" in 1212.6739ms
+)
+22:20:17 [Information] ( Request finished in 1440.0653ms 200 application/json; charset=utf-8
+)
+22:20:17 [Information] ( Connection id ""0HM4AEL5AHFNI"", Request id ""0HM4AEL5AHFNI:00000004"": the application completed without reading the entire request body.
+)
+22:20:41 [Information] ( Request starting HTTP/1.1 GET http://localhost:51099/api/note/1 application/json 56
+)
+22:20:41 [Information] ( Successfully validated the token.
+)
+22:20:41 [Information] ( Route matched with "{action = \"Get\", controller = \"Note\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[SEDC.WebApi.NoteApp.Models.NoteDto] Get(Int32)" on controller "SEDC.WebApi.NoteApp.Api.Controllers.NoteController" ("SEDC.WebApi.NoteApp.Api").
+)
+22:20:41 [Information] ( Authorization was successful.
+)
+22:20:41 [Information] ( Executing action method "SEDC.WebApi.NoteApp.Api.Controllers.NoteController.Get (SEDC.WebApi.NoteApp.Api)" - Validation state: Valid
+)
+22:20:41 [Information] ( Entity Framework Core "2.1.14-servicing-32113" initialized '"NotesDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+)
+22:20:41 [Information] ( Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [n].[Id], [n].[Color], [n].[Tag], [n].[Text], [n].[UserId]
+FROM [Notes] AS [n]"
+)
+22:20:41 [Information] ( Executed action method "SEDC.WebApi.NoteApp.Api.Controllers.NoteController.Get (SEDC.WebApi.NoteApp.Api)", returned result "Microsoft.AspNetCore.Mvc.BadRequestObjectResult" in 8.0478ms.
+)
+22:20:41 [Information] ( Executing ObjectResult, writing value of type '"System.String"'.
+)
+22:20:41 [Information] ( Executed action "SEDC.WebApi.NoteApp.Api.Controllers.NoteController.Get (SEDC.WebApi.NoteApp.Api)" in 41.0187ms
+)
+22:20:41 [Information] ( Request finished in 86.5735ms 400 text/plain; charset=utf-8
+)
+22:20:41 [Information] ( Connection id ""0HM4AEL5AHFNI"", Request id ""0HM4AEL5AHFNI:00000005"": the application completed without reading the entire request body.
+)
+22:21:53 [Information] ( Request starting HTTP/1.1 POST http://localhost:51099/api/user/register application/json 141
+)
+22:21:53 [Information] ( Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo: '[PII is hidden]', Current time: '[PII is hidden]'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters) in C:\agent2\_work\15\s\src\Microsoft.IdentityModel.Tokens\Validators.cs:line 269
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters) in C:\agent2\_work\15\s\src\System.IdentityModel.Tokens.Jwt\JwtSecurityTokenHandler.cs:line 1259
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters) in C:\agent2\_work\15\s\src\System.IdentityModel.Tokens.Jwt\JwtSecurityTokenHandler.cs:line 785
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken) in C:\agent2\_work\15\s\src\System.IdentityModel.Tokens.Jwt\JwtSecurityTokenHandler.cs:line 769
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+)
+22:21:53 [Information] ( "Bearer" was not authenticated. Failure message: "IDX10223: Lifetime validation failed. The token is expired. ValidTo: '[PII is hidden]', Current time: '[PII is hidden]'."
+)
+22:21:53 [Information] ( Route matched with "{action = \"Register\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Register(SEDC.WebApi.NoteApp.Models.RegisterModel)" on controller "SEDC.WebApi.NoteApp.Api.Controllers.UserController" ("SEDC.WebApi.NoteApp.Api").
+)
+22:21:53 [Information] ( Executing action method "SEDC.WebApi.NoteApp.Api.Controllers.UserController.Register (SEDC.WebApi.NoteApp.Api)" - Validation state: Valid
+)
+22:21:53 [Information] ( Entity Framework Core "2.1.14-servicing-32113" initialized '"NotesDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+)
+22:21:53 [Information] ( Executed DbCommand ("3"ms) [Parameters=["@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (Size = 100), @p3='?' (Size = 50)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+INSERT INTO [Users] ([FirstName], [LastName], [Password], [Username])
+VALUES (@p0, @p1, @p2, @p3);
+SELECT [Id]
+FROM [Users]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();"
+)
+22:21:53 [Information] ( USER: "ljupka.p" has registered
+)
+22:21:53 [Information] ( Executed action method "SEDC.WebApi.NoteApp.Api.Controllers.UserController.Register (SEDC.WebApi.NoteApp.Api)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 85.7049ms.
+)
+22:21:53 [Information] ( Executing ObjectResult, writing value of type '"System.String"'.
+)
+22:21:53 [Information] ( Executed action "SEDC.WebApi.NoteApp.Api.Controllers.UserController.Register (SEDC.WebApi.NoteApp.Api)" in 125.796ms
+)
+22:21:53 [Information] ( Request finished in 194.8027ms 200 text/plain; charset=utf-8
+)
+22:26:21 [Information] ( Request starting HTTP/1.1 POST http://localhost:51099/api/note application/json 75
+)
+22:26:21 [Information] ( Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo: '[PII is hidden]', Current time: '[PII is hidden]'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters) in C:\agent2\_work\15\s\src\Microsoft.IdentityModel.Tokens\Validators.cs:line 269
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters) in C:\agent2\_work\15\s\src\System.IdentityModel.Tokens.Jwt\JwtSecurityTokenHandler.cs:line 1259
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters) in C:\agent2\_work\15\s\src\System.IdentityModel.Tokens.Jwt\JwtSecurityTokenHandler.cs:line 785
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken) in C:\agent2\_work\15\s\src\System.IdentityModel.Tokens.Jwt\JwtSecurityTokenHandler.cs:line 769
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+)
+22:26:21 [Information] ( "Bearer" was not authenticated. Failure message: "IDX10223: Lifetime validation failed. The token is expired. ValidTo: '[PII is hidden]', Current time: '[PII is hidden]'."
+)
+22:26:21 [Information] ( Route matched with "{action = \"Post\", controller = \"Note\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult Post(SEDC.WebApi.NoteApp.Models.NoteDto)" on controller "SEDC.WebApi.NoteApp.Api.Controllers.NoteController" ("SEDC.WebApi.NoteApp.Api").
+)
+22:26:21 [Information] ( Authorization failed.
+)
+22:26:21 [Information] ( Authorization failed for the request at filter '"Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter"'.
+)
+22:26:21 [Information] ( Executing ChallengeResult with authentication schemes ([]).
+)
+22:26:21 [Information] ( AuthenticationScheme: "Bearer" was challenged.
+)
+22:26:21 [Information] ( Executed action "SEDC.WebApi.NoteApp.Api.Controllers.NoteController.Post (SEDC.WebApi.NoteApp.Api)" in 16.907ms
+)
+22:26:21 [Information] ( Request finished in 20.6053ms 401 
+)
+22:26:21 [Information] ( Connection id ""0HM4AEL5AHFNK"", Request id ""0HM4AEL5AHFNK:00000001"": the application completed without reading the entire request body.
+)
+22:26:58 [Information] ( Request starting HTTP/1.1 POST http://localhost:51099/api/user/authenticate application/json 56
+)
+22:26:58 [Information] ( Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo: '[PII is hidden]', Current time: '[PII is hidden]'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters) in C:\agent2\_work\15\s\src\Microsoft.IdentityModel.Tokens\Validators.cs:line 269
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters) in C:\agent2\_work\15\s\src\System.IdentityModel.Tokens.Jwt\JwtSecurityTokenHandler.cs:line 1259
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters) in C:\agent2\_work\15\s\src\System.IdentityModel.Tokens.Jwt\JwtSecurityTokenHandler.cs:line 785
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken) in C:\agent2\_work\15\s\src\System.IdentityModel.Tokens.Jwt\JwtSecurityTokenHandler.cs:line 769
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+)
+22:26:58 [Information] ( "Bearer" was not authenticated. Failure message: "IDX10223: Lifetime validation failed. The token is expired. ValidTo: '[PII is hidden]', Current time: '[PII is hidden]'."
+)
+22:26:58 [Information] ( Route matched with "{action = \"Authenticate\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[SEDC.WebApi.NoteApp.Models.UserModel] Authenticate(SEDC.WebApi.NoteApp.Models.LoginModel)" on controller "SEDC.WebApi.NoteApp.Api.Controllers.UserController" ("SEDC.WebApi.NoteApp.Api").
+)
+22:26:58 [Information] ( Executing action method "SEDC.WebApi.NoteApp.Api.Controllers.UserController.Authenticate (SEDC.WebApi.NoteApp.Api)" - Validation state: Valid
+)
+22:26:58 [Information] ( Entity Framework Core "2.1.14-servicing-32113" initialized '"NotesDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+)
+22:26:58 [Information] ( Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [u].[Id], [u].[FirstName], [u].[LastName], [u].[Password], [u].[Username]
+FROM [Users] AS [u]"
+)
+22:26:58 [Information] ( USER: ljupka.p has logged in
+)
+22:26:58 [Information] ( Executed action method "SEDC.WebApi.NoteApp.Api.Controllers.UserController.Authenticate (SEDC.WebApi.NoteApp.Api)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 54.7629ms.
+)
+22:26:58 [Information] ( Executing ObjectResult, writing value of type '"SEDC.WebApi.NoteApp.Models.UserModel"'.
+)
+22:26:58 [Information] ( Executed action "SEDC.WebApi.NoteApp.Api.Controllers.UserController.Authenticate (SEDC.WebApi.NoteApp.Api)" in 66.4224ms
+)
+22:26:58 [Information] ( Request finished in 70.2746ms 200 application/json; charset=utf-8
+)
+22:27:48 [Information] ( Request starting HTTP/1.1 POST http://localhost:51099/api/note application/json 75
+)
+22:27:48 [Information] ( Successfully validated the token.
+)
+22:27:48 [Information] ( Route matched with "{action = \"Post\", controller = \"Note\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult Post(SEDC.WebApi.NoteApp.Models.NoteDto)" on controller "SEDC.WebApi.NoteApp.Api.Controllers.NoteController" ("SEDC.WebApi.NoteApp.Api").
+)
+22:27:48 [Information] ( Authorization was successful.
+)
+22:27:48 [Information] ( Executing action method "SEDC.WebApi.NoteApp.Api.Controllers.NoteController.Post (SEDC.WebApi.NoteApp.Api)" - Validation state: Valid
+)
+22:27:48 [Information] ( Entity Framework Core "2.1.14-servicing-32113" initialized '"NotesDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+)
+22:27:48 [Information] ( Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [u].[Id], [u].[FirstName], [u].[LastName], [u].[Password], [u].[Username]
+FROM [Users] AS [u]"
+)
+22:27:48 [Information] ( Executed DbCommand ("4"ms) [Parameters=["@p0='?' (Size = 20), @p1='?' (DbType = Int32), @p2='?' (Size = 150), @p3='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+INSERT INTO [Notes] ([Color], [Tag], [Text], [UserId])
+VALUES (@p0, @p1, @p2, @p3);
+SELECT [Id]
+FROM [Notes]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();"
+)
+22:27:48 [Information] ( Executed action method "SEDC.WebApi.NoteApp.Api.Controllers.NoteController.Post (SEDC.WebApi.NoteApp.Api)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 54.4479ms.
+)
+22:27:48 [Information] ( Executing ObjectResult, writing value of type '"System.String"'.
+)
+22:27:48 [Information] ( Executed action "SEDC.WebApi.NoteApp.Api.Controllers.NoteController.Post (SEDC.WebApi.NoteApp.Api)" in 273.5179ms
+)
+22:27:48 [Information] ( Request finished in 274.8876ms 200 text/plain; charset=utf-8
+)
+22:28:26 [Information] ( Request starting HTTP/1.1 GET http://localhost:51099/api/note application/json 56
+)
+22:28:26 [Information] ( Successfully validated the token.
+)
+22:28:26 [Information] ( Route matched with "{action = \"Get\", controller = \"Note\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[SEDC.WebApi.NoteApp.Models.NoteDto]] Get()" on controller "SEDC.WebApi.NoteApp.Api.Controllers.NoteController" ("SEDC.WebApi.NoteApp.Api").
+)
+22:28:26 [Information] ( Authorization was successful.
+)
+22:28:26 [Information] ( Executing action method "SEDC.WebApi.NoteApp.Api.Controllers.NoteController.Get (SEDC.WebApi.NoteApp.Api)" - Validation state: Valid
+)
+22:28:26 [Information] ( Executed action method "SEDC.WebApi.NoteApp.Api.Controllers.NoteController.Get (SEDC.WebApi.NoteApp.Api)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 0.1226ms.
+)
+22:28:26 [Information] ( Executing ObjectResult, writing value of type '"System.Linq.Enumerable+WhereSelectEnumerableIterator`2[[SEDC.WebApi.NoteApp.DataModel.Note, SEDC.WebApi.NoteApp.DataModel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[SEDC.WebApi.NoteApp.Models.NoteDto, SEDC.WebApi.NoteApp.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+)
+22:28:26 [Information] ( Entity Framework Core "2.1.14-servicing-32113" initialized '"NotesDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+)
+22:28:26 [Information] ( Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [n].[Id], [n].[Color], [n].[Tag], [n].[Text], [n].[UserId]
+FROM [Notes] AS [n]"
+)
+22:28:26 [Information] ( Executed action "SEDC.WebApi.NoteApp.Api.Controllers.NoteController.Get (SEDC.WebApi.NoteApp.Api)" in 12.296ms
+)
+22:28:26 [Information] ( Request finished in 13.3698ms 200 application/json; charset=utf-8
+)
+22:28:26 [Information] ( Connection id ""0HM4AEL5AHFNK"", Request id ""0HM4AEL5AHFNK:00000004"": the application completed without reading the entire request body.
+)
+22:28:42 [Information] ( Request starting HTTP/1.1 GET http://localhost:51099/api/note/3 application/json 56
+)
+22:28:42 [Information] ( Successfully validated the token.
+)
+22:28:42 [Information] ( Route matched with "{action = \"Get\", controller = \"Note\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[SEDC.WebApi.NoteApp.Models.NoteDto] Get(Int32)" on controller "SEDC.WebApi.NoteApp.Api.Controllers.NoteController" ("SEDC.WebApi.NoteApp.Api").
+)
+22:28:42 [Information] ( Authorization was successful.
+)
+22:28:42 [Information] ( Executing action method "SEDC.WebApi.NoteApp.Api.Controllers.NoteController.Get (SEDC.WebApi.NoteApp.Api)" - Validation state: Valid
+)
+22:28:42 [Information] ( Entity Framework Core "2.1.14-servicing-32113" initialized '"NotesDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+)
+22:28:42 [Information] ( Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [n].[Id], [n].[Color], [n].[Tag], [n].[Text], [n].[UserId]
+FROM [Notes] AS [n]"
+)
+22:28:42 [Information] ( Executed action method "SEDC.WebApi.NoteApp.Api.Controllers.NoteController.Get (SEDC.WebApi.NoteApp.Api)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 1.4723ms.
+)
+22:28:42 [Information] ( Executing ObjectResult, writing value of type '"SEDC.WebApi.NoteApp.Models.NoteDto"'.
+)
+22:28:42 [Information] ( Executed action "SEDC.WebApi.NoteApp.Api.Controllers.NoteController.Get (SEDC.WebApi.NoteApp.Api)" in 2.6642ms
+)
+22:28:42 [Information] ( Request finished in 3.7844ms 200 application/json; charset=utf-8
+)
+22:28:42 [Information] ( Connection id ""0HM4AEL5AHFNK"", Request id ""0HM4AEL5AHFNK:00000005"": the application completed without reading the entire request body.
+)
+22:28:49 [Information] ( Request starting HTTP/1.1 GET http://localhost:51099/api/note application/json 56
+)
+22:28:49 [Information] ( Successfully validated the token.
+)
+22:28:49 [Information] ( Route matched with "{action = \"Get\", controller = \"Note\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[SEDC.WebApi.NoteApp.Models.NoteDto]] Get()" on controller "SEDC.WebApi.NoteApp.Api.Controllers.NoteController" ("SEDC.WebApi.NoteApp.Api").
+)
+22:28:49 [Information] ( Authorization was successful.
+)
+22:28:49 [Information] ( Executing action method "SEDC.WebApi.NoteApp.Api.Controllers.NoteController.Get (SEDC.WebApi.NoteApp.Api)" - Validation state: Valid
+)
+22:28:49 [Information] ( Executed action method "SEDC.WebApi.NoteApp.Api.Controllers.NoteController.Get (SEDC.WebApi.NoteApp.Api)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 0.0218ms.
+)
+22:28:49 [Information] ( Executing ObjectResult, writing value of type '"System.Linq.Enumerable+WhereSelectEnumerableIterator`2[[SEDC.WebApi.NoteApp.DataModel.Note, SEDC.WebApi.NoteApp.DataModel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[SEDC.WebApi.NoteApp.Models.NoteDto, SEDC.WebApi.NoteApp.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+)
+22:28:49 [Information] ( Entity Framework Core "2.1.14-servicing-32113" initialized '"NotesDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+)
+22:28:49 [Information] ( Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [n].[Id], [n].[Color], [n].[Tag], [n].[Text], [n].[UserId]
+FROM [Notes] AS [n]"
+)
+22:28:49 [Information] ( Executed action "SEDC.WebApi.NoteApp.Api.Controllers.NoteController.Get (SEDC.WebApi.NoteApp.Api)" in 3.4891ms
+)
+22:28:49 [Information] ( Request finished in 4.7224ms 200 application/json; charset=utf-8
+)
+22:28:49 [Information] ( Connection id ""0HM4AEL5AHFNK"", Request id ""0HM4AEL5AHFNK:00000006"": the application completed without reading the entire request body.
+)
+22:31:45 [Information] ( Request starting HTTP/1.1 POST http://localhost:51099/api/user/authenticate application/json 55
+)
+22:31:45 [Information] ( Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo: '[PII is hidden]', Current time: '[PII is hidden]'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters) in C:\agent2\_work\15\s\src\Microsoft.IdentityModel.Tokens\Validators.cs:line 269
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters) in C:\agent2\_work\15\s\src\System.IdentityModel.Tokens.Jwt\JwtSecurityTokenHandler.cs:line 1259
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters) in C:\agent2\_work\15\s\src\System.IdentityModel.Tokens.Jwt\JwtSecurityTokenHandler.cs:line 785
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken) in C:\agent2\_work\15\s\src\System.IdentityModel.Tokens.Jwt\JwtSecurityTokenHandler.cs:line 769
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+)
+22:31:45 [Information] ( "Bearer" was not authenticated. Failure message: "IDX10223: Lifetime validation failed. The token is expired. ValidTo: '[PII is hidden]', Current time: '[PII is hidden]'."
+)
+22:31:45 [Information] ( Route matched with "{action = \"Authenticate\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[SEDC.WebApi.NoteApp.Models.UserModel] Authenticate(SEDC.WebApi.NoteApp.Models.LoginModel)" on controller "SEDC.WebApi.NoteApp.Api.Controllers.UserController" ("SEDC.WebApi.NoteApp.Api").
+)
+22:31:45 [Information] ( Executing action method "SEDC.WebApi.NoteApp.Api.Controllers.UserController.Authenticate (SEDC.WebApi.NoteApp.Api)" - Validation state: Valid
+)
+22:31:45 [Information] ( Entity Framework Core "2.1.14-servicing-32113" initialized '"NotesDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+)
+22:31:45 [Information] ( Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [u].[Id], [u].[FirstName], [u].[LastName], [u].[Password], [u].[Username]
+FROM [Users] AS [u]"
+)
+22:31:45 [Information] ( USER: bob007 has logged in
+)
+22:31:45 [Information] ( Executed action method "SEDC.WebApi.NoteApp.Api.Controllers.UserController.Authenticate (SEDC.WebApi.NoteApp.Api)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 1.9918ms.
+)
+22:31:45 [Information] ( Executing ObjectResult, writing value of type '"SEDC.WebApi.NoteApp.Models.UserModel"'.
+)
+22:31:45 [Information] ( Executed action "SEDC.WebApi.NoteApp.Api.Controllers.UserController.Authenticate (SEDC.WebApi.NoteApp.Api)" in 3.1464ms
+)
+22:31:45 [Information] ( Request finished in 5.1822ms 200 application/json; charset=utf-8
+)
+22:32:07 [Information] ( Request starting HTTP/1.1 GET http://localhost:51099/api/note application/json 56
+)
+22:32:07 [Information] ( Successfully validated the token.
+)
+22:32:07 [Information] ( Route matched with "{action = \"Get\", controller = \"Note\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[SEDC.WebApi.NoteApp.Models.NoteDto]] Get()" on controller "SEDC.WebApi.NoteApp.Api.Controllers.NoteController" ("SEDC.WebApi.NoteApp.Api").
+)
+22:32:07 [Information] ( Authorization was successful.
+)
+22:32:07 [Information] ( Executing action method "SEDC.WebApi.NoteApp.Api.Controllers.NoteController.Get (SEDC.WebApi.NoteApp.Api)" - Validation state: Valid
+)
+22:32:07 [Information] ( Executed action method "SEDC.WebApi.NoteApp.Api.Controllers.NoteController.Get (SEDC.WebApi.NoteApp.Api)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 0.0117ms.
+)
+22:32:07 [Information] ( Executing ObjectResult, writing value of type '"System.Linq.Enumerable+WhereSelectEnumerableIterator`2[[SEDC.WebApi.NoteApp.DataModel.Note, SEDC.WebApi.NoteApp.DataModel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[SEDC.WebApi.NoteApp.Models.NoteDto, SEDC.WebApi.NoteApp.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+)
+22:32:07 [Information] ( Entity Framework Core "2.1.14-servicing-32113" initialized '"NotesDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+)
+22:32:07 [Information] ( Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [n].[Id], [n].[Color], [n].[Tag], [n].[Text], [n].[UserId]
+FROM [Notes] AS [n]"
+)
+22:32:07 [Information] ( Executed action "SEDC.WebApi.NoteApp.Api.Controllers.NoteController.Get (SEDC.WebApi.NoteApp.Api)" in 1.5937ms
+)
+22:32:07 [Information] ( Request finished in 2.3466ms 200 application/json; charset=utf-8
+)
+22:32:07 [Information] ( Connection id ""0HM4AEL5AHFNL"", Request id ""0HM4AEL5AHFNL:00000002"": the application completed without reading the entire request body.
+)
+22:32:16 [Information] ( Request starting HTTP/1.1 GET http://localhost:51099/api/note/2 application/json 56
+)
+22:32:16 [Information] ( Successfully validated the token.
+)
+22:32:16 [Information] ( Route matched with "{action = \"Get\", controller = \"Note\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[SEDC.WebApi.NoteApp.Models.NoteDto] Get(Int32)" on controller "SEDC.WebApi.NoteApp.Api.Controllers.NoteController" ("SEDC.WebApi.NoteApp.Api").
+)
+22:32:16 [Information] ( Authorization was successful.
+)
+22:32:16 [Information] ( Executing action method "SEDC.WebApi.NoteApp.Api.Controllers.NoteController.Get (SEDC.WebApi.NoteApp.Api)" - Validation state: Valid
+)
+22:32:16 [Information] ( Entity Framework Core "2.1.14-servicing-32113" initialized '"NotesDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+)
+22:32:16 [Information] ( Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [n].[Id], [n].[Color], [n].[Tag], [n].[Text], [n].[UserId]
+FROM [Notes] AS [n]"
+)
+22:32:16 [Information] ( Executed action method "SEDC.WebApi.NoteApp.Api.Controllers.NoteController.Get (SEDC.WebApi.NoteApp.Api)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 3.0192ms.
+)
+22:32:16 [Information] ( Executing ObjectResult, writing value of type '"SEDC.WebApi.NoteApp.Models.NoteDto"'.
+)
+22:32:16 [Information] ( Executed action "SEDC.WebApi.NoteApp.Api.Controllers.NoteController.Get (SEDC.WebApi.NoteApp.Api)" in 4.5827ms
+)
+22:32:16 [Information] ( Request finished in 5.7894ms 200 application/json; charset=utf-8
+)
+22:32:16 [Information] ( Connection id ""0HM4AEL5AHFNL"", Request id ""0HM4AEL5AHFNL:00000003"": the application completed without reading the entire request body.
+)

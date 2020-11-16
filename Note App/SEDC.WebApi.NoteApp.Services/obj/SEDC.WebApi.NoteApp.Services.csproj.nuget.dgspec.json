@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dushk\\OneDrive\\Desktop\\SEAVUS\\8.WebAPI\\SEDC.WebApi.NoteApp\\SEDC.WebApi.NoteApp.Services\\SEDC.WebApi.NoteApp.Services.csproj": {}
+    "C:\\Users\\dushk\\OneDrive\\Desktop\\ASP.NET Core Web API projects\\Note App\\SEDC.WebApi.NoteApp.Services\\SEDC.WebApi.NoteApp.Services.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dushk\\OneDrive\\Desktop\\SEAVUS\\8.WebAPI\\SEDC.WebApi.NoteApp\\SEDC.WebApi.NoteApp.DataAccess\\SEDC.WebApi.NoteApp.DataAccess.csproj": {
+    "C:\\Users\\dushk\\OneDrive\\Desktop\\ASP.NET Core Web API projects\\Note App\\SEDC.WebApi.NoteApp.DataAccess\\SEDC.WebApi.NoteApp.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dushk\\OneDrive\\Desktop\\SEAVUS\\8.WebAPI\\SEDC.WebApi.NoteApp\\SEDC.WebApi.NoteApp.DataAccess\\SEDC.WebApi.NoteApp.DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\dushk\\OneDrive\\Desktop\\ASP.NET Core Web API projects\\Note App\\SEDC.WebApi.NoteApp.DataAccess\\SEDC.WebApi.NoteApp.DataAccess.csproj",
         "projectName": "SEDC.WebApi.NoteApp.DataAccess",
-        "projectPath": "C:\\Users\\dushk\\OneDrive\\Desktop\\SEAVUS\\8.WebAPI\\SEDC.WebApi.NoteApp\\SEDC.WebApi.NoteApp.DataAccess\\SEDC.WebApi.NoteApp.DataAccess.csproj",
+        "projectPath": "C:\\Users\\dushk\\OneDrive\\Desktop\\ASP.NET Core Web API projects\\Note App\\SEDC.WebApi.NoteApp.DataAccess\\SEDC.WebApi.NoteApp.DataAccess.csproj",
         "packagesPath": "C:\\Users\\dushk\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dushk\\OneDrive\\Desktop\\SEAVUS\\8.WebAPI\\SEDC.WebApi.NoteApp\\SEDC.WebApi.NoteApp.DataAccess\\obj\\",
+        "outputPath": "C:\\Users\\dushk\\OneDrive\\Desktop\\ASP.NET Core Web API projects\\Note App\\SEDC.WebApi.NoteApp.DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -30,8 +30,8 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "C:\\Users\\dushk\\OneDrive\\Desktop\\SEAVUS\\8.WebAPI\\SEDC.WebApi.NoteApp\\SEDC.WebApi.NoteApp.DataModel\\SEDC.WebApi.NoteApp.DataModel.csproj": {
-                "projectPath": "C:\\Users\\dushk\\OneDrive\\Desktop\\SEAVUS\\8.WebAPI\\SEDC.WebApi.NoteApp\\SEDC.WebApi.NoteApp.DataModel\\SEDC.WebApi.NoteApp.DataModel.csproj"
+              "C:\\Users\\dushk\\OneDrive\\Desktop\\ASP.NET Core Web API projects\\Note App\\SEDC.WebApi.NoteApp.DataModel\\SEDC.WebApi.NoteApp.DataModel.csproj": {
+                "projectPath": "C:\\Users\\dushk\\OneDrive\\Desktop\\ASP.NET Core Web API projects\\Note App\\SEDC.WebApi.NoteApp.DataModel\\SEDC.WebApi.NoteApp.DataModel.csproj"
               }
             }
           }
@@ -74,14 +74,14 @@
         }
       }
     },
-    "C:\\Users\\dushk\\OneDrive\\Desktop\\SEAVUS\\8.WebAPI\\SEDC.WebApi.NoteApp\\SEDC.WebApi.NoteApp.DataModel\\SEDC.WebApi.NoteApp.DataModel.csproj": {
+    "C:\\Users\\dushk\\OneDrive\\Desktop\\ASP.NET Core Web API projects\\Note App\\SEDC.WebApi.NoteApp.DataModel\\SEDC.WebApi.NoteApp.DataModel.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dushk\\OneDrive\\Desktop\\SEAVUS\\8.WebAPI\\SEDC.WebApi.NoteApp\\SEDC.WebApi.NoteApp.DataModel\\SEDC.WebApi.NoteApp.DataModel.csproj",
+        "projectUniqueName": "C:\\Users\\dushk\\OneDrive\\Desktop\\ASP.NET Core Web API projects\\Note App\\SEDC.WebApi.NoteApp.DataModel\\SEDC.WebApi.NoteApp.DataModel.csproj",
         "projectName": "SEDC.WebApi.NoteApp.DataModel",
-        "projectPath": "C:\\Users\\dushk\\OneDrive\\Desktop\\SEAVUS\\8.WebAPI\\SEDC.WebApi.NoteApp\\SEDC.WebApi.NoteApp.DataModel\\SEDC.WebApi.NoteApp.DataModel.csproj",
+        "projectPath": "C:\\Users\\dushk\\OneDrive\\Desktop\\ASP.NET Core Web API projects\\Note App\\SEDC.WebApi.NoteApp.DataModel\\SEDC.WebApi.NoteApp.DataModel.csproj",
         "packagesPath": "C:\\Users\\dushk\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dushk\\OneDrive\\Desktop\\SEAVUS\\8.WebAPI\\SEDC.WebApi.NoteApp\\SEDC.WebApi.NoteApp.DataModel\\obj\\",
+        "outputPath": "C:\\Users\\dushk\\OneDrive\\Desktop\\ASP.NET Core Web API projects\\Note App\\SEDC.WebApi.NoteApp.DataModel\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -144,14 +144,14 @@
         }
       }
     },
-    "C:\\Users\\dushk\\OneDrive\\Desktop\\SEAVUS\\8.WebAPI\\SEDC.WebApi.NoteApp\\SEDC.WebApi.NoteApp.Models\\SEDC.WebApi.NoteApp.Models.csproj": {
+    "C:\\Users\\dushk\\OneDrive\\Desktop\\ASP.NET Core Web API projects\\Note App\\SEDC.WebApi.NoteApp.Models\\SEDC.WebApi.NoteApp.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dushk\\OneDrive\\Desktop\\SEAVUS\\8.WebAPI\\SEDC.WebApi.NoteApp\\SEDC.WebApi.NoteApp.Models\\SEDC.WebApi.NoteApp.Models.csproj",
+        "projectUniqueName": "C:\\Users\\dushk\\OneDrive\\Desktop\\ASP.NET Core Web API projects\\Note App\\SEDC.WebApi.NoteApp.Models\\SEDC.WebApi.NoteApp.Models.csproj",
         "projectName": "SEDC.WebApi.NoteApp.Models",
-        "projectPath": "C:\\Users\\dushk\\OneDrive\\Desktop\\SEAVUS\\8.WebAPI\\SEDC.WebApi.NoteApp\\SEDC.WebApi.NoteApp.Models\\SEDC.WebApi.NoteApp.Models.csproj",
+        "projectPath": "C:\\Users\\dushk\\OneDrive\\Desktop\\ASP.NET Core Web API projects\\Note App\\SEDC.WebApi.NoteApp.Models\\SEDC.WebApi.NoteApp.Models.csproj",
         "packagesPath": "C:\\Users\\dushk\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dushk\\OneDrive\\Desktop\\SEAVUS\\8.WebAPI\\SEDC.WebApi.NoteApp\\SEDC.WebApi.NoteApp.Models\\obj\\",
+        "outputPath": "C:\\Users\\dushk\\OneDrive\\Desktop\\ASP.NET Core Web API projects\\Note App\\SEDC.WebApi.NoteApp.Models\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -202,14 +202,14 @@
         }
       }
     },
-    "C:\\Users\\dushk\\OneDrive\\Desktop\\SEAVUS\\8.WebAPI\\SEDC.WebApi.NoteApp\\SEDC.WebApi.NoteApp.Services\\SEDC.WebApi.NoteApp.Services.csproj": {
+    "C:\\Users\\dushk\\OneDrive\\Desktop\\ASP.NET Core Web API projects\\Note App\\SEDC.WebApi.NoteApp.Services\\SEDC.WebApi.NoteApp.Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dushk\\OneDrive\\Desktop\\SEAVUS\\8.WebAPI\\SEDC.WebApi.NoteApp\\SEDC.WebApi.NoteApp.Services\\SEDC.WebApi.NoteApp.Services.csproj",
+        "projectUniqueName": "C:\\Users\\dushk\\OneDrive\\Desktop\\ASP.NET Core Web API projects\\Note App\\SEDC.WebApi.NoteApp.Services\\SEDC.WebApi.NoteApp.Services.csproj",
         "projectName": "SEDC.WebApi.NoteApp.Services",
-        "projectPath": "C:\\Users\\dushk\\OneDrive\\Desktop\\SEAVUS\\8.WebAPI\\SEDC.WebApi.NoteApp\\SEDC.WebApi.NoteApp.Services\\SEDC.WebApi.NoteApp.Services.csproj",
+        "projectPath": "C:\\Users\\dushk\\OneDrive\\Desktop\\ASP.NET Core Web API projects\\Note App\\SEDC.WebApi.NoteApp.Services\\SEDC.WebApi.NoteApp.Services.csproj",
         "packagesPath": "C:\\Users\\dushk\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dushk\\OneDrive\\Desktop\\SEAVUS\\8.WebAPI\\SEDC.WebApi.NoteApp\\SEDC.WebApi.NoteApp.Services\\obj\\",
+        "outputPath": "C:\\Users\\dushk\\OneDrive\\Desktop\\ASP.NET Core Web API projects\\Note App\\SEDC.WebApi.NoteApp.Services\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -228,14 +228,14 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "C:\\Users\\dushk\\OneDrive\\Desktop\\SEAVUS\\8.WebAPI\\SEDC.WebApi.NoteApp\\SEDC.WebApi.NoteApp.DataAccess\\SEDC.WebApi.NoteApp.DataAccess.csproj": {
-                "projectPath": "C:\\Users\\dushk\\OneDrive\\Desktop\\SEAVUS\\8.WebAPI\\SEDC.WebApi.NoteApp\\SEDC.WebApi.NoteApp.DataAccess\\SEDC.WebApi.NoteApp.DataAccess.csproj"
+              "C:\\Users\\dushk\\OneDrive\\Desktop\\ASP.NET Core Web API projects\\Note App\\SEDC.WebApi.NoteApp.DataAccess\\SEDC.WebApi.NoteApp.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\dushk\\OneDrive\\Desktop\\ASP.NET Core Web API projects\\Note App\\SEDC.WebApi.NoteApp.DataAccess\\SEDC.WebApi.NoteApp.DataAccess.csproj"
               },
-              "C:\\Users\\dushk\\OneDrive\\Desktop\\SEAVUS\\8.WebAPI\\SEDC.WebApi.NoteApp\\SEDC.WebApi.NoteApp.DataModel\\SEDC.WebApi.NoteApp.DataModel.csproj": {
-                "projectPath": "C:\\Users\\dushk\\OneDrive\\Desktop\\SEAVUS\\8.WebAPI\\SEDC.WebApi.NoteApp\\SEDC.WebApi.NoteApp.DataModel\\SEDC.WebApi.NoteApp.DataModel.csproj"
+              "C:\\Users\\dushk\\OneDrive\\Desktop\\ASP.NET Core Web API projects\\Note App\\SEDC.WebApi.NoteApp.DataModel\\SEDC.WebApi.NoteApp.DataModel.csproj": {
+                "projectPath": "C:\\Users\\dushk\\OneDrive\\Desktop\\ASP.NET Core Web API projects\\Note App\\SEDC.WebApi.NoteApp.DataModel\\SEDC.WebApi.NoteApp.DataModel.csproj"
               },
-              "C:\\Users\\dushk\\OneDrive\\Desktop\\SEAVUS\\8.WebAPI\\SEDC.WebApi.NoteApp\\SEDC.WebApi.NoteApp.Models\\SEDC.WebApi.NoteApp.Models.csproj": {
-                "projectPath": "C:\\Users\\dushk\\OneDrive\\Desktop\\SEAVUS\\8.WebAPI\\SEDC.WebApi.NoteApp\\SEDC.WebApi.NoteApp.Models\\SEDC.WebApi.NoteApp.Models.csproj"
+              "C:\\Users\\dushk\\OneDrive\\Desktop\\ASP.NET Core Web API projects\\Note App\\SEDC.WebApi.NoteApp.Models\\SEDC.WebApi.NoteApp.Models.csproj": {
+                "projectPath": "C:\\Users\\dushk\\OneDrive\\Desktop\\ASP.NET Core Web API projects\\Note App\\SEDC.WebApi.NoteApp.Models\\SEDC.WebApi.NoteApp.Models.csproj"
               }
             }
           }

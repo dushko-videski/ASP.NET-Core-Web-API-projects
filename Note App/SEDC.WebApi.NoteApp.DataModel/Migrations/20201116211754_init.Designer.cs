@@ -9,8 +9,8 @@ using SEDC.WebApi.NoteApp.DataModel;
 namespace SEDC.WebApi.NoteApp.DataModel.Migrations
 {
     [DbContext(typeof(NotesDbContext))]
-    [Migration("20200930182047_Initial_Migration")]
-    partial class Initial_Migration
+    [Migration("20201116211754_init")]
+    partial class init
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -40,7 +40,7 @@ namespace SEDC.WebApi.NoteApp.DataModel.Migrations
 
                     b.HasIndex("UserId");
 
-                    b.ToTable("Note");
+                    b.ToTable("Notes");
 
                     b.HasData(
                         new { Id = 1, Color = "blue", Tag = 4, Text = "Buy Juice", UserId = 1 },
@@ -68,7 +68,7 @@ namespace SEDC.WebApi.NoteApp.DataModel.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("User");
+                    b.ToTable("Users");
 
                     b.HasData(
                         new { Id = 1, FirstName = "Bob", LastName = "Bobsky", Password = "(?\\?-??3#>L?q", Username = "bob007" }

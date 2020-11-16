@@ -16,3 +16,12 @@ C:\Users\dushk\OneDrive\Desktop\SEAVUS\8.WebAPI\SEDC.WebApi.NoteApp\SEDC.WebApi.
 C:\Users\dushk\OneDrive\Desktop\SEAVUS\8.WebAPI\SEDC.WebApi.NoteApp\SEDC.WebApi.NoteApp.DataModel\obj\Debug\netstandard2.0\SEDC.WebApi.NoteApp.DataModel.csproj.CoreCompileInputs.cache
 C:\Users\dushk\OneDrive\Desktop\SEAVUS\8.WebAPI\SEDC.WebApi.NoteApp\SEDC.WebApi.NoteApp.DataModel\obj\Debug\netstandard2.0\SEDC.WebApi.NoteApp.DataModel.dll
 C:\Users\dushk\OneDrive\Desktop\SEAVUS\8.WebAPI\SEDC.WebApi.NoteApp\SEDC.WebApi.NoteApp.DataModel\obj\Debug\netstandard2.0\SEDC.WebApi.NoteApp.DataModel.pdb
+C:\Users\dushk\OneDrive\Desktop\ASP.NET Core Web API projects\Note App\SEDC.WebApi.NoteApp.DataModel\bin\Debug\netstandard2.0\SEDC.WebApi.NoteApp.DataModel.deps.json
+C:\Users\dushk\OneDrive\Desktop\ASP.NET Core Web API projects\Note App\SEDC.WebApi.NoteApp.DataModel\bin\Debug\netstandard2.0\SEDC.WebApi.NoteApp.DataModel.dll
+C:\Users\dushk\OneDrive\Desktop\ASP.NET Core Web API projects\Note App\SEDC.WebApi.NoteApp.DataModel\bin\Debug\netstandard2.0\SEDC.WebApi.NoteApp.DataModel.pdb
+C:\Users\dushk\OneDrive\Desktop\ASP.NET Core Web API projects\Note App\SEDC.WebApi.NoteApp.DataModel\obj\Debug\netstandard2.0\SEDC.WebApi.NoteApp.DataModel.csprojAssemblyReference.cache
+C:\Users\dushk\OneDrive\Desktop\ASP.NET Core Web API projects\Note App\SEDC.WebApi.NoteApp.DataModel\obj\Debug\netstandard2.0\SEDC.WebApi.NoteApp.DataModel.AssemblyInfoInputs.cache
+C:\Users\dushk\OneDrive\Desktop\ASP.NET Core Web API projects\Note App\SEDC.WebApi.NoteApp.DataModel\obj\Debug\netstandard2.0\SEDC.WebApi.NoteApp.DataModel.AssemblyInfo.cs
+C:\Users\dushk\OneDrive\Desktop\ASP.NET Core Web API projects\Note App\SEDC.WebApi.NoteApp.DataModel\obj\Debug\netstandard2.0\SEDC.WebApi.NoteApp.DataModel.csproj.CoreCompileInputs.cache
+C:\Users\dushk\OneDrive\Desktop\ASP.NET Core Web API projects\Note App\SEDC.WebApi.NoteApp.DataModel\obj\Debug\netstandard2.0\SEDC.WebApi.NoteApp.DataModel.dll
+C:\Users\dushk\OneDrive\Desktop\ASP.NET Core Web API projects\Note App\SEDC.WebApi.NoteApp.DataModel\obj\Debug\netstandard2.0\SEDC.WebApi.NoteApp.DataModel.pdb

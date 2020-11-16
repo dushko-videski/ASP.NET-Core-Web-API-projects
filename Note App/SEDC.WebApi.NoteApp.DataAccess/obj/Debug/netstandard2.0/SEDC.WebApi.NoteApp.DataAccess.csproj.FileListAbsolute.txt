@@ -24,3 +24,15 @@ C:\Users\dushk\OneDrive\Desktop\SEAVUS\8.WebAPI\SEDC.WebApi.NoteApp\SEDC.WebApi.
 C:\Users\dushk\OneDrive\Desktop\SEAVUS\8.WebAPI\SEDC.WebApi.NoteApp\SEDC.WebApi.NoteApp.DataAccess\obj\Debug\netstandard2.0\SEDC.WebApi.NoteApp.DataAccess.csproj.CopyComplete
 C:\Users\dushk\OneDrive\Desktop\SEAVUS\8.WebAPI\SEDC.WebApi.NoteApp\SEDC.WebApi.NoteApp.DataAccess\obj\Debug\netstandard2.0\SEDC.WebApi.NoteApp.DataAccess.dll
 C:\Users\dushk\OneDrive\Desktop\SEAVUS\8.WebAPI\SEDC.WebApi.NoteApp\SEDC.WebApi.NoteApp.DataAccess\obj\Debug\netstandard2.0\SEDC.WebApi.NoteApp.DataAccess.pdb
+C:\Users\dushk\OneDrive\Desktop\ASP.NET Core Web API projects\Note App\SEDC.WebApi.NoteApp.DataAccess\bin\Debug\netstandard2.0\SEDC.WebApi.NoteApp.DataAccess.deps.json
+C:\Users\dushk\OneDrive\Desktop\ASP.NET Core Web API projects\Note App\SEDC.WebApi.NoteApp.DataAccess\bin\Debug\netstandard2.0\SEDC.WebApi.NoteApp.DataAccess.dll
+C:\Users\dushk\OneDrive\Desktop\ASP.NET Core Web API projects\Note App\SEDC.WebApi.NoteApp.DataAccess\bin\Debug\netstandard2.0\SEDC.WebApi.NoteApp.DataAccess.pdb
+C:\Users\dushk\OneDrive\Desktop\ASP.NET Core Web API projects\Note App\SEDC.WebApi.NoteApp.DataAccess\bin\Debug\netstandard2.0\SEDC.WebApi.NoteApp.DataModel.dll
+C:\Users\dushk\OneDrive\Desktop\ASP.NET Core Web API projects\Note App\SEDC.WebApi.NoteApp.DataAccess\bin\Debug\netstandard2.0\SEDC.WebApi.NoteApp.DataModel.pdb
+C:\Users\dushk\OneDrive\Desktop\ASP.NET Core Web API projects\Note App\SEDC.WebApi.NoteApp.DataAccess\obj\Debug\netstandard2.0\SEDC.WebApi.NoteApp.DataAccess.csprojAssemblyReference.cache
+C:\Users\dushk\OneDrive\Desktop\ASP.NET Core Web API projects\Note App\SEDC.WebApi.NoteApp.DataAccess\obj\Debug\netstandard2.0\SEDC.WebApi.NoteApp.DataAccess.AssemblyInfoInputs.cache
+C:\Users\dushk\OneDrive\Desktop\ASP.NET Core Web API projects\Note App\SEDC.WebApi.NoteApp.DataAccess\obj\Debug\netstandard2.0\SEDC.WebApi.NoteApp.DataAccess.AssemblyInfo.cs
+C:\Users\dushk\OneDrive\Desktop\ASP.NET Core Web API projects\Note App\SEDC.WebApi.NoteApp.DataAccess\obj\Debug\netstandard2.0\SEDC.WebApi.NoteApp.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\dushk\OneDrive\Desktop\ASP.NET Core Web API projects\Note App\SEDC.WebApi.NoteApp.DataAccess\obj\Debug\netstandard2.0\SEDC.WebApi.NoteApp.DataAccess.csproj.CopyComplete
+C:\Users\dushk\OneDrive\Desktop\ASP.NET Core Web API projects\Note App\SEDC.WebApi.NoteApp.DataAccess\obj\Debug\netstandard2.0\SEDC.WebApi.NoteApp.DataAccess.dll
+C:\Users\dushk\OneDrive\Desktop\ASP.NET Core Web API projects\Note App\SEDC.WebApi.NoteApp.DataAccess\obj\Debug\netstandard2.0\SEDC.WebApi.NoteApp.DataAccess.pdb

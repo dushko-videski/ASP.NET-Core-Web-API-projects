@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "37Iv0ISf0qONse+LV1/UVW8CqJaEeuuk/ToYzchwcTzBYvw4jfpKgPNE5NEubcPOrk1cWWunX47x7IgEj5aiOg==",
+  "dgSpecHash": "S5XZndrn+KpIBpyyUg7Q+si65YKvArpLm45R8Rd3YLuL133OcRNRscQ3RZ5bCFWnVjZcpjAXI1wUlHR1ym3n0g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\dushk\\OneDrive\\Desktop\\SEAVUS\\8.WebAPI\\SEDC.WebApi.NoteApp\\SEDC.WebApi.NoteApp.DataModel\\SEDC.WebApi.NoteApp.DataModel.csproj",
+  "projectFilePath": "C:\\Users\\dushk\\OneDrive\\Desktop\\ASP.NET Core Web API projects\\Note App\\SEDC.WebApi.NoteApp.DataModel\\SEDC.WebApi.NoteApp.DataModel.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\dushk\\.nuget\\packages\\dapper\\2.0.35\\dapper.2.0.35.nupkg.sha512",
     "C:\\Users\\dushk\\.nuget\\packages\\dapper.contrib\\2.0.35\\dapper.contrib.2.0.35.nupkg.sha512",
