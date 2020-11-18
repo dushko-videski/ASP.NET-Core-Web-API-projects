@@ -1,0 +1,12 @@
+C:\Users\dushk\OneDrive\Desktop\ASP.NET Core Web API projects\SimplifiedCollageSystem\SimplifiedCollageSystem.DataAccess\bin\Debug\netstandard2.0\SimplifiedCollageSystem.DataAccess.deps.json
+C:\Users\dushk\OneDrive\Desktop\ASP.NET Core Web API projects\SimplifiedCollageSystem\SimplifiedCollageSystem.DataAccess\bin\Debug\netstandard2.0\SimplifiedCollageSystem.DataAccess.dll
+C:\Users\dushk\OneDrive\Desktop\ASP.NET Core Web API projects\SimplifiedCollageSystem\SimplifiedCollageSystem.DataAccess\bin\Debug\netstandard2.0\SimplifiedCollageSystem.DataAccess.pdb
+C:\Users\dushk\OneDrive\Desktop\ASP.NET Core Web API projects\SimplifiedCollageSystem\SimplifiedCollageSystem.DataAccess\bin\Debug\netstandard2.0\SimplifiedCollageSystem.DomainModels.dll
+C:\Users\dushk\OneDrive\Desktop\ASP.NET Core Web API projects\SimplifiedCollageSystem\SimplifiedCollageSystem.DataAccess\bin\Debug\netstandard2.0\SimplifiedCollageSystem.DomainModels.pdb
+C:\Users\dushk\OneDrive\Desktop\ASP.NET Core Web API projects\SimplifiedCollageSystem\SimplifiedCollageSystem.DataAccess\obj\Debug\netstandard2.0\SimplifiedCollageSystem.DataAccess.csprojAssemblyReference.cache
+C:\Users\dushk\OneDrive\Desktop\ASP.NET Core Web API projects\SimplifiedCollageSystem\SimplifiedCollageSystem.DataAccess\obj\Debug\netstandard2.0\SimplifiedCollageSystem.DataAccess.AssemblyInfoInputs.cache
+C:\Users\dushk\OneDrive\Desktop\ASP.NET Core Web API projects\SimplifiedCollageSystem\SimplifiedCollageSystem.DataAccess\obj\Debug\netstandard2.0\SimplifiedCollageSystem.DataAccess.AssemblyInfo.cs
+C:\Users\dushk\OneDrive\Desktop\ASP.NET Core Web API projects\SimplifiedCollageSystem\SimplifiedCollageSystem.DataAccess\obj\Debug\netstandard2.0\SimplifiedCollageSystem.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\dushk\OneDrive\Desktop\ASP.NET Core Web API projects\SimplifiedCollageSystem\SimplifiedCollageSystem.DataAccess\obj\Debug\netstandard2.0\SimplifiedCollageSystem.DataAccess.csproj.CopyComplete
+C:\Users\dushk\OneDrive\Desktop\ASP.NET Core Web API projects\SimplifiedCollageSystem\SimplifiedCollageSystem.DataAccess\obj\Debug\netstandard2.0\SimplifiedCollageSystem.DataAccess.dll
+C:\Users\dushk\OneDrive\Desktop\ASP.NET Core Web API projects\SimplifiedCollageSystem\SimplifiedCollageSystem.DataAccess\obj\Debug\netstandard2.0\SimplifiedCollageSystem.DataAccess.pdb

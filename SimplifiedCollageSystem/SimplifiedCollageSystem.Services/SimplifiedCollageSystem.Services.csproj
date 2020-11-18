@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SimplifiedCollageSystem.DataAccess\SimplifiedCollageSystem.DataAccess.csproj" />
+    <ProjectReference Include="..\SimplifiedCollageSystem.DomainModels\SimplifiedCollageSystem.DomainModels.csproj" />
+    <ProjectReference Include="..\SimplifiedCollageSystem.Models\SimplifiedCollageSystem.Models.csproj" />
+  </ItemGroup>
+
+</Project>

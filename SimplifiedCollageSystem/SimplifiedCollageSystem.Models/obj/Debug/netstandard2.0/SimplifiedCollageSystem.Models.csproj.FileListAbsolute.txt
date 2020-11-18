@@ -1,0 +1,12 @@
+C:\Users\dushk\OneDrive\Desktop\ASP.NET Core Web API projects\SimplifiedCollageSystem\SimplifiedCollageSystem.Models\bin\Debug\netstandard2.0\SimplifiedCollageSystem.Models.deps.json
+C:\Users\dushk\OneDrive\Desktop\ASP.NET Core Web API projects\SimplifiedCollageSystem\SimplifiedCollageSystem.Models\bin\Debug\netstandard2.0\SimplifiedCollageSystem.Models.dll
+C:\Users\dushk\OneDrive\Desktop\ASP.NET Core Web API projects\SimplifiedCollageSystem\SimplifiedCollageSystem.Models\bin\Debug\netstandard2.0\SimplifiedCollageSystem.Models.pdb
+C:\Users\dushk\OneDrive\Desktop\ASP.NET Core Web API projects\SimplifiedCollageSystem\SimplifiedCollageSystem.Models\obj\Debug\netstandard2.0\SimplifiedCollageSystem.Models.csprojAssemblyReference.cache
+C:\Users\dushk\OneDrive\Desktop\ASP.NET Core Web API projects\SimplifiedCollageSystem\SimplifiedCollageSystem.Models\obj\Debug\netstandard2.0\SimplifiedCollageSystem.Models.AssemblyInfoInputs.cache
+C:\Users\dushk\OneDrive\Desktop\ASP.NET Core Web API projects\SimplifiedCollageSystem\SimplifiedCollageSystem.Models\obj\Debug\netstandard2.0\SimplifiedCollageSystem.Models.AssemblyInfo.cs
+C:\Users\dushk\OneDrive\Desktop\ASP.NET Core Web API projects\SimplifiedCollageSystem\SimplifiedCollageSystem.Models\obj\Debug\netstandard2.0\SimplifiedCollageSystem.Models.csproj.CoreCompileInputs.cache
+C:\Users\dushk\OneDrive\Desktop\ASP.NET Core Web API projects\SimplifiedCollageSystem\SimplifiedCollageSystem.Models\obj\Debug\netstandard2.0\SimplifiedCollageSystem.Models.dll
+C:\Users\dushk\OneDrive\Desktop\ASP.NET Core Web API projects\SimplifiedCollageSystem\SimplifiedCollageSystem.Models\obj\Debug\netstandard2.0\SimplifiedCollageSystem.Models.pdb
+C:\Users\dushk\OneDrive\Desktop\ASP.NET Core Web API projects\SimplifiedCollageSystem\SimplifiedCollageSystem.Models\bin\Debug\netstandard2.0\SimplifiedCollageSystem.DomainModels.dll
+C:\Users\dushk\OneDrive\Desktop\ASP.NET Core Web API projects\SimplifiedCollageSystem\SimplifiedCollageSystem.Models\bin\Debug\netstandard2.0\SimplifiedCollageSystem.DomainModels.pdb
+C:\Users\dushk\OneDrive\Desktop\ASP.NET Core Web API projects\SimplifiedCollageSystem\SimplifiedCollageSystem.Models\obj\Debug\netstandard2.0\SimplifiedCollageSystem.Models.csproj.CopyComplete

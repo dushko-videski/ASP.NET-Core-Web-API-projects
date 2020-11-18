@@ -1,0 +1,16 @@
+C:\Users\dushk\OneDrive\Desktop\ASP.NET Core Web API projects\SimplifiedCollageSystem\SimplifiedCollageSystem.Services\bin\Debug\netstandard2.0\SimplifiedCollageSystem.Services.deps.json
+C:\Users\dushk\OneDrive\Desktop\ASP.NET Core Web API projects\SimplifiedCollageSystem\SimplifiedCollageSystem.Services\bin\Debug\netstandard2.0\SimplifiedCollageSystem.Services.dll
+C:\Users\dushk\OneDrive\Desktop\ASP.NET Core Web API projects\SimplifiedCollageSystem\SimplifiedCollageSystem.Services\bin\Debug\netstandard2.0\SimplifiedCollageSystem.Services.pdb
+C:\Users\dushk\OneDrive\Desktop\ASP.NET Core Web API projects\SimplifiedCollageSystem\SimplifiedCollageSystem.Services\bin\Debug\netstandard2.0\SimplifiedCollageSystem.DataAccess.dll
+C:\Users\dushk\OneDrive\Desktop\ASP.NET Core Web API projects\SimplifiedCollageSystem\SimplifiedCollageSystem.Services\bin\Debug\netstandard2.0\SimplifiedCollageSystem.DomainModels.dll
+C:\Users\dushk\OneDrive\Desktop\ASP.NET Core Web API projects\SimplifiedCollageSystem\SimplifiedCollageSystem.Services\bin\Debug\netstandard2.0\SimplifiedCollageSystem.Models.dll
+C:\Users\dushk\OneDrive\Desktop\ASP.NET Core Web API projects\SimplifiedCollageSystem\SimplifiedCollageSystem.Services\bin\Debug\netstandard2.0\SimplifiedCollageSystem.DataAccess.pdb
+C:\Users\dushk\OneDrive\Desktop\ASP.NET Core Web API projects\SimplifiedCollageSystem\SimplifiedCollageSystem.Services\bin\Debug\netstandard2.0\SimplifiedCollageSystem.DomainModels.pdb
+C:\Users\dushk\OneDrive\Desktop\ASP.NET Core Web API projects\SimplifiedCollageSystem\SimplifiedCollageSystem.Services\bin\Debug\netstandard2.0\SimplifiedCollageSystem.Models.pdb
+C:\Users\dushk\OneDrive\Desktop\ASP.NET Core Web API projects\SimplifiedCollageSystem\SimplifiedCollageSystem.Services\obj\Debug\netstandard2.0\SimplifiedCollageSystem.Services.csprojAssemblyReference.cache
+C:\Users\dushk\OneDrive\Desktop\ASP.NET Core Web API projects\SimplifiedCollageSystem\SimplifiedCollageSystem.Services\obj\Debug\netstandard2.0\SimplifiedCollageSystem.Services.AssemblyInfoInputs.cache
+C:\Users\dushk\OneDrive\Desktop\ASP.NET Core Web API projects\SimplifiedCollageSystem\SimplifiedCollageSystem.Services\obj\Debug\netstandard2.0\SimplifiedCollageSystem.Services.AssemblyInfo.cs
+C:\Users\dushk\OneDrive\Desktop\ASP.NET Core Web API projects\SimplifiedCollageSystem\SimplifiedCollageSystem.Services\obj\Debug\netstandard2.0\SimplifiedCollageSystem.Services.csproj.CoreCompileInputs.cache
+C:\Users\dushk\OneDrive\Desktop\ASP.NET Core Web API projects\SimplifiedCollageSystem\SimplifiedCollageSystem.Services\obj\Debug\netstandard2.0\SimplifiedCollageSystem.Services.csproj.CopyComplete
+C:\Users\dushk\OneDrive\Desktop\ASP.NET Core Web API projects\SimplifiedCollageSystem\SimplifiedCollageSystem.Services\obj\Debug\netstandard2.0\SimplifiedCollageSystem.Services.dll
+C:\Users\dushk\OneDrive\Desktop\ASP.NET Core Web API projects\SimplifiedCollageSystem\SimplifiedCollageSystem.Services\obj\Debug\netstandard2.0\SimplifiedCollageSystem.Services.pdb

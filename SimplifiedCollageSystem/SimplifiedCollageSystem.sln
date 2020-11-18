@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30621.155
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimplifiedCollageSystem.App", "SimplifiedCollageSystem.App\SimplifiedCollageSystem.App.csproj", "{E727ABF5-78BD-45F9-A20E-FCE46313B281}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimplifiedCollageSystem.DataAccess", "SimplifiedCollageSystem.DataAccess\SimplifiedCollageSystem.DataAccess.csproj", "{1BDE577B-3626-44A8-B407-2A0DA8CC9EAD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimplifiedCollageSystem.DomainModels", "SimplifiedCollageSystem.DomainModels\SimplifiedCollageSystem.DomainModels.csproj", "{CE18D56A-E17A-4325-BC02-777279FF97B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimplifiedCollageSystem.Models", "SimplifiedCollageSystem.Models\SimplifiedCollageSystem.Models.csproj", "{3A963D4C-D856-41E9-BB92-546B9D3BDBC0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimplifiedCollageSystem.Services", "SimplifiedCollageSystem.Services\SimplifiedCollageSystem.Services.csproj", "{9402BFD6-18BD-4F56-8E19-CC56AB67A21E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E727ABF5-78BD-45F9-A20E-FCE46313B281}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E727ABF5-78BD-45F9-A20E-FCE46313B281}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E727ABF5-78BD-45F9-A20E-FCE46313B281}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E727ABF5-78BD-45F9-A20E-FCE46313B281}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BDE577B-3626-44A8-B407-2A0DA8CC9EAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BDE577B-3626-44A8-B407-2A0DA8CC9EAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BDE577B-3626-44A8-B407-2A0DA8CC9EAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BDE577B-3626-44A8-B407-2A0DA8CC9EAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE18D56A-E17A-4325-BC02-777279FF97B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE18D56A-E17A-4325-BC02-777279FF97B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE18D56A-E17A-4325-BC02-777279FF97B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE18D56A-E17A-4325-BC02-777279FF97B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A963D4C-D856-41E9-BB92-546B9D3BDBC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A963D4C-D856-41E9-BB92-546B9D3BDBC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A963D4C-D856-41E9-BB92-546B9D3BDBC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A963D4C-D856-41E9-BB92-546B9D3BDBC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9402BFD6-18BD-4F56-8E19-CC56AB67A21E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9402BFD6-18BD-4F56-8E19-CC56AB67A21E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9402BFD6-18BD-4F56-8E19-CC56AB67A21E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9402BFD6-18BD-4F56-8E19-CC56AB67A21E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0919A34C-DA0D-4295-BAC5-B46D7703C73B}
+	EndGlobalSection
+EndGlobal

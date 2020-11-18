@@ -1,0 +1,266 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\dushk\\OneDrive\\Desktop\\ASP.NET Core Web API projects\\SimplifiedCollageSystem\\SimplifiedCollageSystem.Services\\SimplifiedCollageSystem.Services.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\dushk\\OneDrive\\Desktop\\ASP.NET Core Web API projects\\SimplifiedCollageSystem\\SimplifiedCollageSystem.DataAccess\\SimplifiedCollageSystem.DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\dushk\\OneDrive\\Desktop\\ASP.NET Core Web API projects\\SimplifiedCollageSystem\\SimplifiedCollageSystem.DataAccess\\SimplifiedCollageSystem.DataAccess.csproj",
+        "projectName": "SimplifiedCollageSystem.DataAccess",
+        "projectPath": "C:\\Users\\dushk\\OneDrive\\Desktop\\ASP.NET Core Web API projects\\SimplifiedCollageSystem\\SimplifiedCollageSystem.DataAccess\\SimplifiedCollageSystem.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\dushk\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\dushk\\OneDrive\\Desktop\\ASP.NET Core Web API projects\\SimplifiedCollageSystem\\SimplifiedCollageSystem.DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\dushk\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "C:\\Users\\dushk\\OneDrive\\Desktop\\ASP.NET Core Web API projects\\SimplifiedCollageSystem\\SimplifiedCollageSystem.DomainModels\\SimplifiedCollageSystem.DomainModels.csproj": {
+                "projectPath": "C:\\Users\\dushk\\OneDrive\\Desktop\\ASP.NET Core Web API projects\\SimplifiedCollageSystem\\SimplifiedCollageSystem.DomainModels\\SimplifiedCollageSystem.DomainModels.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\dushk\\OneDrive\\Desktop\\ASP.NET Core Web API projects\\SimplifiedCollageSystem\\SimplifiedCollageSystem.DomainModels\\SimplifiedCollageSystem.DomainModels.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\dushk\\OneDrive\\Desktop\\ASP.NET Core Web API projects\\SimplifiedCollageSystem\\SimplifiedCollageSystem.DomainModels\\SimplifiedCollageSystem.DomainModels.csproj",
+        "projectName": "SimplifiedCollageSystem.DomainModels",
+        "projectPath": "C:\\Users\\dushk\\OneDrive\\Desktop\\ASP.NET Core Web API projects\\SimplifiedCollageSystem\\SimplifiedCollageSystem.DomainModels\\SimplifiedCollageSystem.DomainModels.csproj",
+        "packagesPath": "C:\\Users\\dushk\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\dushk\\OneDrive\\Desktop\\ASP.NET Core Web API projects\\SimplifiedCollageSystem\\SimplifiedCollageSystem.DomainModels\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\dushk\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\dushk\\OneDrive\\Desktop\\ASP.NET Core Web API projects\\SimplifiedCollageSystem\\SimplifiedCollageSystem.Models\\SimplifiedCollageSystem.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\dushk\\OneDrive\\Desktop\\ASP.NET Core Web API projects\\SimplifiedCollageSystem\\SimplifiedCollageSystem.Models\\SimplifiedCollageSystem.Models.csproj",
+        "projectName": "SimplifiedCollageSystem.Models",
+        "projectPath": "C:\\Users\\dushk\\OneDrive\\Desktop\\ASP.NET Core Web API projects\\SimplifiedCollageSystem\\SimplifiedCollageSystem.Models\\SimplifiedCollageSystem.Models.csproj",
+        "packagesPath": "C:\\Users\\dushk\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\dushk\\OneDrive\\Desktop\\ASP.NET Core Web API projects\\SimplifiedCollageSystem\\SimplifiedCollageSystem.Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\dushk\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "C:\\Users\\dushk\\OneDrive\\Desktop\\ASP.NET Core Web API projects\\SimplifiedCollageSystem\\SimplifiedCollageSystem.DomainModels\\SimplifiedCollageSystem.DomainModels.csproj": {
+                "projectPath": "C:\\Users\\dushk\\OneDrive\\Desktop\\ASP.NET Core Web API projects\\SimplifiedCollageSystem\\SimplifiedCollageSystem.DomainModels\\SimplifiedCollageSystem.DomainModels.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\dushk\\OneDrive\\Desktop\\ASP.NET Core Web API projects\\SimplifiedCollageSystem\\SimplifiedCollageSystem.Services\\SimplifiedCollageSystem.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\dushk\\OneDrive\\Desktop\\ASP.NET Core Web API projects\\SimplifiedCollageSystem\\SimplifiedCollageSystem.Services\\SimplifiedCollageSystem.Services.csproj",
+        "projectName": "SimplifiedCollageSystem.Services",
+        "projectPath": "C:\\Users\\dushk\\OneDrive\\Desktop\\ASP.NET Core Web API projects\\SimplifiedCollageSystem\\SimplifiedCollageSystem.Services\\SimplifiedCollageSystem.Services.csproj",
+        "packagesPath": "C:\\Users\\dushk\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\dushk\\OneDrive\\Desktop\\ASP.NET Core Web API projects\\SimplifiedCollageSystem\\SimplifiedCollageSystem.Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\dushk\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "C:\\Users\\dushk\\OneDrive\\Desktop\\ASP.NET Core Web API projects\\SimplifiedCollageSystem\\SimplifiedCollageSystem.DataAccess\\SimplifiedCollageSystem.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\dushk\\OneDrive\\Desktop\\ASP.NET Core Web API projects\\SimplifiedCollageSystem\\SimplifiedCollageSystem.DataAccess\\SimplifiedCollageSystem.DataAccess.csproj"
+              },
+              "C:\\Users\\dushk\\OneDrive\\Desktop\\ASP.NET Core Web API projects\\SimplifiedCollageSystem\\SimplifiedCollageSystem.DomainModels\\SimplifiedCollageSystem.DomainModels.csproj": {
+                "projectPath": "C:\\Users\\dushk\\OneDrive\\Desktop\\ASP.NET Core Web API projects\\SimplifiedCollageSystem\\SimplifiedCollageSystem.DomainModels\\SimplifiedCollageSystem.DomainModels.csproj"
+              },
+              "C:\\Users\\dushk\\OneDrive\\Desktop\\ASP.NET Core Web API projects\\SimplifiedCollageSystem\\SimplifiedCollageSystem.Models\\SimplifiedCollageSystem.Models.csproj": {
+                "projectPath": "C:\\Users\\dushk\\OneDrive\\Desktop\\ASP.NET Core Web API projects\\SimplifiedCollageSystem\\SimplifiedCollageSystem.Models\\SimplifiedCollageSystem.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
